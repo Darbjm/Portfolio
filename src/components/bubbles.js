@@ -2,7 +2,6 @@ import React from 'react'
 import * as d3 from 'd3'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
-import { CircleBufferGeometry } from 'three'
 
 class Bubbles extends React.Component {
   componentDidMount() {
@@ -31,8 +30,6 @@ class Bubbles extends React.Component {
         .attr('font-size', function(d) { return '70px';} )
         .html(<FontAwesomeIcon icon={faHtml5} />); 
         // .text('f13b')
-
-    
 
         // .append(<FontAwesomeIcon icon={faHtml5} />)
         // .style('xlink:href', '')
