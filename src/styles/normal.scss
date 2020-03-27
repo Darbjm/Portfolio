@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'rale';
+  src: url('../assets/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'tech';
+  src: url('../assets/fonts/ShareTech-Regular.ttf');
+}
+
+$Primary-color: #ffad3b;
+
+.primary {
+  color: $Primary-color;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'rale';
+  section {
+    display: flex;
+    flex-grow: 1;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.statement {
+  font-family: 'rale';
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  min-height: 1000px;
+  .container-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .skills {
+      display: flex;
+      flex-grow: 1;
+      // border: black 1px solid;
+      padding: 30px;
+      margin: 50px;
+      max-width: 460px;
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+      .bubbles {
+        border: 1px solid black;
+      }
+    }
+    .text {
+      max-width: 460px;
+      padding: 30px;
+      margin: 50px;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      flex-grow: 1;
+      text-align: left;
+      // border: black 1px solid;
+      h4 {
+        font-family: 'tech';
+        color: $Primary-color;
+        font-size: 40px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.statement-image {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('../assets/25.png');
+  margin: 50px 0;
+  height: 300px;
+}
+
+.projects-image {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('../assets/1a.png');
+  margin: 50px 0;
+  height: 300px;
+}
+
+.vanta { 
+  height: 110vh;
+  color: black;
+  font-family: 'rale';
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  // margin-bottom: 50px;
+}
+
+.name {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  .color-box {
+    strong {
+      font-family: 'tech';
+      font-size: 7vw;
+      font-weight: normal;
+    }
+    h4 {
+      font-size: 3vw;
+      margin-top: 20px;
+      font-weight: lighter;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5vw;
+  }
+}
+
+.fade {
+  background-image : linear-gradient(to bottom, 
+  rgba(0, 0, 0, 0) 50%, 
+  rgb(255, 255, 255) 100%);
+  width: 100vw;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+}
