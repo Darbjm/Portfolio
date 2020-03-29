@@ -1,49 +1,67 @@
 import React from 'react'
-import * as d3 from 'd3'
+import BubbleChart from '@weknow/react-bubble-chart-d3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 
 class Bubbles extends React.Component {
-  componentDidMount() {
-    this.drawBarChart()
-  }
-
-  drawBarChart()  {
-    const canvasHeight = 400
-    const canvasWidth = 600
-    const svg = d3.select(this.refs.canvas)
-        .append('svg')
-        .attr('width', canvasWidth)
-        .attr('height', canvasHeight)
-        // .style('border', '1px solid black')
-    svg.append('circle')
-        .attr('cx', 50)
-        .attr('cy', 50)
-        .attr('r', 50)
-        .style('stroke', '#ffad3b')
-        .style("stroke-width", 3)
-        .style('fill', 'none')
-    svg.append('text')
-        .attr("x",0)
-        .attr("y",70)
-        .attr("font-family", 'FontAwesome')
-        .attr('font-size', function(d) { return '70px';} )
-        .html(<FontAwesomeIcon icon={faHtml5} />); 
-        // .text('f13b')
-
-        // .append(<FontAwesomeIcon icon={faHtml5} />)
-        // .style('xlink:href', '')
-  }
 
   render() { 
     return (
       <>
-      {/* <FontAwesomeIcon icon={faHtml5} /> */}
-      <div ref="canvas"></div> 
+      {/* <BubbleChart
+        graph= {{
+          zoom: 1.1,
+          offsetX: -0.05,
+          offsetY: -0.01,
+        }}
+        width={600}
+        height={600}
+        padding={0} // optional value, number that set the padding between bubbles
+        showLegend={false} // optional value, pass false to disable the legend.
+        legendPercentage={20} // number that represent the % of with that legend going to use.
+        legendFont={{
+              family: 'Arial',
+              size: 12,
+              color: '#000',
+              weight: 'bold',
+            }}
+        valueFont={{
+              family: 'Arial',
+              size: 12,
+              color: '#fff',
+              weight: 'bold',
+            }}
+        labelFont={{
+              family: 'Arial',
+              size: 16,
+              color: '#fff',
+              weight: 'bold',
+            }}
+        data={[
+          { label: 'u/f0c1', value: 1, },
+          { label: 'API', value: 1 },
+          { label: 'Data', value: 1 },
+          { label: 'Commerce', value: 1 },
+          { label: 'AI', value: 1 },
+          { label: 'Management', value: 1 },
+          { label: 'Testing', value: 1 },
+          { label: 'Mobile', value: 1 },
+          { label: 'Conversion', value: 1 },
+          { label: 'Misc', value: 1 },
+          { label: 'Databases', value: 1 },
+          { label: 'DevOps', value: 1 },
+          { label: 'Javascript', value: 1 },
+          { label: 'Languages / Frameworks', value: 1 },
+          { label: 'Front End', value: 1 },
+          { label: 'Content', value: 1  },
+        ]}
+      /> */}
       </>
     )
   }
 }
+
+
 
 
 export default Bubbles
