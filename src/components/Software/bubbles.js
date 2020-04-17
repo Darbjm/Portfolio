@@ -1,7 +1,7 @@
 import React from 'react'
-import BubbleChart from '@weknow/react-bubble-chart-d3';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
+// import BubbleChart from '@weknow/react-bubble-chart-d3';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 
 class Bubbles extends React.Component {
 

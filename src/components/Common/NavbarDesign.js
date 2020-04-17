@@ -46,8 +46,8 @@ const NavbarDesign = () => {
             </div>
             <div onMouseMove={startAnimate} onMouseOut={stopAnimate} className='navbar-end'>
               <Link className='navbar-item' smooth to='#history'>History</Link>
-              <Link className='navbar-item' smooth to='#Clients'>Clients</Link>
-              <Link className='navbar-item' smooth to='#self'>Self-initiated</Link>
+              <Link className='navbar-item' smooth to='#Clients'>Client Projects</Link>
+              <Link className='navbar-item' smooth to='#self'>Self-initiated Projects</Link>
             </div>
           </div>
       </nav>

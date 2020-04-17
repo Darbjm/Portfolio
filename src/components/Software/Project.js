@@ -4,7 +4,7 @@ import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Project = ({ data }) => (
-  <div className='project-item'>
+  <div className='project-item' data-aos={data.fade} data-aos-offset='600' data-aos-duration='1500'>
     <div className='project-image'>
       <div className='proj-image-container'>
         <div className={data.image} ></div>
