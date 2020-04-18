@@ -18,7 +18,7 @@ function App() {
         <Route exact path='/' component={Software} />
       </Switch>
       <Footer />
-  </BrowserRouter>
+    </BrowserRouter>
   );
 }
 

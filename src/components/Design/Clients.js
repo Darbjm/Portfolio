@@ -23,11 +23,11 @@ const Clients = () => {
   <h1>CLIENT PROJECTS</h1>
   {clients.map((client, i) => (
     <div className='row' key={i} >
-    <div className='single'>
-    <img src={client.logo} alt={client.logo}/>
-    <h4>{client.subtitle}</h4>
-    <p>{client.text}</p>
-    </div>
+      <div className='single'>
+        <img src={client.logo} alt={client.logo}/>
+        <h4>{client.subtitle}</h4>
+        <p>{client.text}</p>
+      </div>
     <div className='gallery'>
       <Gallery photos={client.photos} onClick={openLightbox} />
       <ModalGateway>
