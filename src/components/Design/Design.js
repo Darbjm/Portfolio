@@ -23,7 +23,7 @@ class Design extends React.Component {
             This gave me an understanding of <strong className='primary'>project management, production, and presentation.</strong>
           </div>
         </div>
-        <div className='header-image'></div>
+        <div className='header-image' id='Clients'></div>
       </section>
       <Clients />
       </>

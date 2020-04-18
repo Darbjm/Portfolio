@@ -819,6 +819,7 @@ a {
       padding: 0.2em 0;
       background-color: white;
       border-radius: 5px;
+      text-align: center;
       width: 50%;
       h4, strong{
         color: $Primary-color;
@@ -863,30 +864,89 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  .row {
+  h1{
+    margin: 50px 0 48px 0;
+  }
+  .client {
     display: flex;
-    flex-direction: row;
-    margin: 50px 20px;
-    width: 90vw;
-  .single{
-    width: 50%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    padding: 30px;
-    h4{
-      font-size: 24px;
-      font-weight: lighter;
-      color: $Primary-color;
+    flex-direction: column;
+    align-items: center;
+    .row {
+      display: flex;
+      flex-direction: row;
+      margin: 50px 0;
+      width: 90vw;
+      justify-content: center;
+    .single-left{
+      width: 50%;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      height: fit-content;
+      .logo{
+        max-width: 75%;
+        margin: 40px 0;
+      }
+      h4{
+        font-size: 24px;
+        font-weight: lighter;
+        color: $Primary-color;
+        margin: 20px 0;
+        font-family: 'tech';
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    .gallery {
+      display: flex;
+      margin: 0 20px;
+    }
+    }
+    .row-reverse {
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 50px 0;
+      width: 90vw;
+      justify-content: center;
+    .single-right{
+      width: 50%;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      height: fit-content;
+      .logo{
+        max-width: 50%;
+        margin: 40px 0;
+      }
+      h4{
+        font-size: 24px;
+        font-weight: lighter;
+        color: $Primary-color;
+        margin: 20px 0;
+        font-family: 'tech';
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    .gallery {
+      display: flex;
+      margin: 0 20px;
+    }
     }
   }
-  .gallery {
-    display: flex;
-    margin: 0 20px;
-  }
-}
 }
 
-@media only screen and (max-width: 1675px) {
+@media only screen and (max-width: 1875px) {
   .clients {
     .gallery {
       max-width: 500px;
@@ -894,21 +954,76 @@ align-items: center;
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1023px) {
   .clients {
-    .row {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      .single{
-        width: 75%;
-        margin-bottom: 20px;
+    .client {
+      .row-reverse {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        .single-right{
+          width: 100%;
+          margin-bottom: 30px;
+          align-items: center;
+          text-align: center;
+        }
+        .gallery {
+          max-width: 100% !important;
+          margin: 0;
+        }
       }
-      .gallery {
-        max-width: 75%;
+      .row{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        .single-left{
+          width: 100%;
+          margin-bottom: 30px;
+          align-items: center;
+          text-align: center;
+        }
+        .gallery {
+          max-width: 100% !important;
+          margin: 0;
+        }
       }
+    }
   }
+}
+
+@media only screen and (max-width: 1054px) {
+  .clients {
+    .client {
+      .row-reverse {
+        .gallery {
+          max-width: 460px;
+        }
+      }
+      .row {
+        .gallery {
+          max-width: 460px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .design-header{
+    .name {
+      .color-box{
+        width: 80%;
+      }
+    }
+  }
+  
+  .border{
+    .history{
+      width: 80%;
+    }
   }
 }
