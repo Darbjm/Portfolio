@@ -11,7 +11,7 @@ const Clients = () => {
     <div className='client'>
     <div className={client.row} key={i} >
       <div className={client.single}>
-        <img src={client.logo} alt={client.logo} className='logo'/>
+        <img src={client.logo} alt={client.logo} className={client.logoclass}/>
         <div class='grey fivepx'></div>
         <h4>{client.subtitle}</h4>
         <p>{client.text}</p>
@@ -21,6 +21,7 @@ const Clients = () => {
       <Gallery photos={client.photos} />
     </div>
     </div>
+    {client.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{client.extra.map((image, i) => (<img className='extra-image' src={image} alt={image} />))}</div></div>}
   </div>))}
 </section>
 )

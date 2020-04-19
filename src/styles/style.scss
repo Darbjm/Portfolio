@@ -887,8 +887,11 @@ align-items: center;
       align-items: flex-end;
       text-align: right;
       height: fit-content;
-      .logo{
-        max-width: 75%;
+      .nike{
+        margin: 40px 0;
+      }
+      .havs{
+        max-width: 80%;
         margin: 40px 0;
       }
       h4{
@@ -923,10 +926,14 @@ align-items: center;
       align-items: flex-start;
       text-align: left;
       height: fit-content;
-      .logo{
-        max-width: 50%;
+      .bacardi{
+        max-width: 60%;
         margin: 40px 0;
       }
+      .bombay{
+        margin: 40px 0;
+      }
+      
       h4{
         font-size: 24px;
         font-weight: lighter;
@@ -942,6 +949,24 @@ align-items: center;
       display: flex;
       margin: 0 20px;
     }
+    }
+  }
+  .extra-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      margin: 0;
+    }
+    .extra{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      .extra-image {
+        max-height: 400px
+      }
     }
   }
 }
