@@ -2,6 +2,8 @@ import React from 'react'
 import NavbarDesign from '../Common/NavbarDesign'
 import Header from './Header'
 import Clients from './Clients'
+import Self from './Self'
+import Website from './Web'
 
 class Design extends React.Component {
   render() {
@@ -26,6 +28,8 @@ class Design extends React.Component {
         <div className='header-image' id='Clients'></div>
       </section>
       <Clients />
+      <Self />
+      <Website />
       </>
     )
   }

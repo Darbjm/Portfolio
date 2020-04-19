@@ -48,7 +48,7 @@ const NavbarDesign = () => {
               <Link className='navbar-item' smooth to='#history'>History</Link>
               <Link className='navbar-item' smooth to='#Clients'>Client Projects</Link>
               <Link className='navbar-item' smooth to='#self'>Self-initiated Projects</Link>
-              <Link className='navbar-item' smooth to='#website'>Websites</Link>
+              <Link className='navbar-item' smooth to='#web'>Websites</Link>
             </div>
           </div>
       </nav>

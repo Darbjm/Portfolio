@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Gallery from 'react-photo-gallery';
 import { clients } from './designdata/Clientsdata';
 
@@ -23,6 +23,7 @@ const Clients = () => {
     </div>
     {client.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{client.extra.map((image, i) => (<img className='extra-image' src={image} alt={image} />))}</div></div>}
   </div>))}
+  <div id='self' className='clients-image'></div>
 </section>
 )
 }
