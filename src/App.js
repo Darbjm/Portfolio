@@ -8,12 +8,16 @@ import Footer from './components/Common/Footer'
 
 import Software from './components/Software/Software'
 import Design from './components/Design/Design'
+import Photography from './components/Photography/Photography';
+import Art from './components/Art/Art';
 
 function App() {
   AOS.init()
   return (
     <BrowserRouter>
       <Switch>
+        <Route path='/art' component={Art} />
+        <Route path='/photography' component={Photography} />
         <Route path='/design' component={Design} />
         <Route exact path='/' component={Software} />
       </Switch>

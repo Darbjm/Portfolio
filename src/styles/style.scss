@@ -1270,3 +1270,100 @@ align-items: center;
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+.photography-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .photography-image{
+    background-image: url('../assets/photography/James-Darby_Photography Header-01.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    .name{
+      display: flex;
+      justify-content: center;
+      strong, h4 {
+        color: white;
+      }
+    }
+  }
+}
+
+.photos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .images{
+    text-align: center;
+    margin: 50px 100px;
+    .row{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      iframe{
+        margin: 20px;
+      }
+    }
+  }
+}
+
+
+
+
+
+.art-header{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.art{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .images{
+    text-align: center;
+    margin: 50px 10px;
+    .show {
+      margin: 50px 0;
+      display: flex;
+      flex-direction: column;
+      img{
+        width: 1000px;
+        margin: 20px;
+      }
+      .info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        .info-card{
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          border-radius: 5px;
+          padding: 20px;
+          margin-bottom: 50px;
+          .rale{
+            font-family: 'rale';
+          }
+        }
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@ import Website from './Web'
 class Design extends React.Component {
   render() {
     return (
-      <>
+      <main>
       <NavbarDesign />
       <Header />
       <section className='border'>
@@ -30,7 +30,7 @@ class Design extends React.Component {
       <Clients />
       <Self />
       <Website />
-      </>
+      </main>
     )
   }
 }

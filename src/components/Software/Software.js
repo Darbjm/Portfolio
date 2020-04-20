@@ -9,7 +9,7 @@ class Software extends React.Component {
 
   render() {
   return (
-      <>
+      <main>
       <Navbar />
       <Header/>
       <main className='main'>
@@ -54,7 +54,7 @@ class Software extends React.Component {
         <div className='xp-image'></div>
       </section>
     </main>
-    </>
+    </main>
   )
 }
 }
