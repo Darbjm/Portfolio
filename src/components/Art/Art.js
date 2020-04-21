@@ -17,6 +17,9 @@ class Art extends React.Component {
         <section className='art'>
           <div className='images'>
             <h1>OIL PAINTING</h1>
+            <div className='description'>  
+              <p>While at Central St Martins my art evolved alongside my design pactise, I took classes in life drawing and exhibited various works. Influenced by Pierre Bonnard, Will Martyr, David Hockney and Susan Ryder. Rich in texture and colour, my love of design means I look closely at the spaces we inhabit to produce dreamlike impressionism, taking satisfaction in texture and form.</p>
+            </div>
             <div className='show'>
               <div className='info'>
                 <img src='https://lh3.googleusercontent.com/j5q-dKKxhpsTdxuRuAGWmWg6QswZaE3BCTikBPfGIPPhwsSqPo4Q0Sb1IjBbWUqfXoH-CrwL5smMa-EG0VaPjJILxuU8wpnmDN7BznAPCZcqGQiGyudFfnv2tbrdV8flXBzE0Z-clO0xTXdH8L4kClvg53180j9ESfjY8VNXbJWNUKwyy4XS2UgcI3_rkVFqUfxNI_dEJDVVYSpAIDaDJPl32oGpGeRU6mVMoZBeLX8TN_p9ZxTS7TrOnfL1BAU_IzUU3lJlElnB24DRxMPxpgtetkYAXkGNn75fGJHNw_dYIm4em4W3FQxifoqGGEHNMdrFzItLqWsXsAeyJ3hl3_WudIsXSQWm3UYhdtQw15f2uS2RQWFERkxeVumi21Y1kqmTTt048Epgr9QG53S72QCKUVabTyoPFN_85RBfUd6K5UX5y6VQjMSY6mZD1HVzwSff3GwAqlhsRt-30YJR9pop18OMZFcG6k5puI4Nf7dYec83lbxCouYzQxQyFzxfmOjWKsaF3cTKq46r43GRFY3nEY6BNMdJqnxz6-q31hSsJeiVZmOP-qjBmt3fuW7_kipO-KsObM7Aq0kUbPIoXXSptBkhjWdICYugw9mAT3Obqh0jxmIOOlnvLpJ8OPY1yIBe36ew6SJvIWlejU7kVFdPxFKFpMsdDyIHPYXzjqpjMLaf-cI4jeVseeCC=w1500-h1101-no' alt='oil painting' />
