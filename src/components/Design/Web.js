@@ -5,9 +5,9 @@ const Website = () => {
     <section className='website'>
       <h1>WEBSITES</h1>
         <div className='center'>
-          <h4>THE SITES I WAS MAINLY RESPONSIBLE FOR WHILE AT ALTER AGENCY</h4>
-          <div class='grey fivepx'></div>
-          <p>The two sites were for our own brand that we used to explore </p>
+          <h4>Using wordpress I worked with another freelancer to build and maintain these websites</h4>
+          <div className='grey'></div>
+          <p>Whilst working on these sites I aquired:<br/> 1. SEO strategies<br/> 2. A strong understanding of website structure and layout<br/> 3. An understanding or servers and urls</p>
         </div>
         <div className='web-row'>
           <img className='website-image' src='https://lh3.googleusercontent.com/Y0H9_XEueQXelw7muD9rdVdI4nkAQIiiJvKkWtL3javmyBRVMgWn14YrFFBuSAlGmDYJdsDPRscXd3NNqPUfPYPF6PewzOpOmSz6iAVkT9115eg52Iy2OzDNbLcai5z-bqCqLGp13h-rSzYoR8-hQjBPN2bwyGUXZ_JF77AjuDtp24sZ_MqeVBOzD0cqqPdTdekXWDB8X0jl82RMupqLR7ea-VmzFITaN7pdT7vuV8iLJW0FkzjHIU64PuPPar5cUZSN6oPm8qqkqwZ6LiP3Ndgy3V32UwSctES24P6Z1dy87UKfRPDjPRj5owJEKiN6p7_iLZ1hbLXxtWFBq_igtDIBrP20ayF43JpSmfXy3zchrf3sQ6l-VSeOR6EV-VbAwJniPa1LA4yRaBkki4IWuuw0tEujvjSc0raQdsfi6BhRDAk7GQymW93_FACkVLH9nHMFZWE2oYZg9a2uWL_IYpq1xxasflfAarnGY8qlTZxz5Jd5dLtncQxqbmckXd4RNfU_ZVGPZiYO0S5QAC5wft8XT_ScguNw87HCsEBAHJkxVEV2WLBvQy1DVkYCYftEnmZkAf4rGJwW0cLPdqNe-MTToI1vXA-pj2JAcGVlscLwZdeblgLWDa2Kc2Fpp4ncV2m7w2OiOHeOtbYj_VGNtzHnCM0RftpteV_vNI0JMuqso6jpOMbb4zjtziNo=w2066-h2658-no' alt='Gregorys tree website' />
