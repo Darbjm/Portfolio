@@ -15,6 +15,13 @@ const Clients = () => {
         <div class='grey fivepx'></div>
         <h4>{client.subtitle}</h4>
         <p>{client.text}</p>
+        {client.list && <ul>
+        <li>{client.list[0]}</li>
+        <li>{client.list[1]}</li>
+        <li>{client.list[2]}</li>
+        <li>{client.list[3]}</li>
+        <li>{client.list[4]}</li>
+          </ul>}
         {client.video && <iframe title='Video' src={client.video} width='100%' height='400' frameborder='0' allowfullscreen></iframe>}
       </div>
     <div className='gallery'>
