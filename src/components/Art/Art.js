@@ -17,8 +17,9 @@ class Art extends React.Component {
         </section>
         <section className='art'>
           <div className='images'>
-            <h1>OIL PAINTING</h1>
             <div className='description'>  
+              <h1>OILS ON CANVAS</h1>
+              <div class="grey"></div>
               <p>While at Central St Martins my art evolved alongside my design pactise, I took classes in life drawing and exhibited various works. Influenced by Pierre Bonnard, Will Martyr, David Hockney and Susan Ryder. Rich in texture and colour, my love of design means I look closely at the spaces we inhabit to produce dreamlike impressionism, taking satisfaction in texture and form.</p>
             </div>
             <div className='show'>
