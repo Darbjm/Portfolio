@@ -12,7 +12,7 @@ class Software extends React.Component {
       <main>
       <Navbar />
       <Header/>
-      <main className='main'>
+      <div className='main'>
       <section id='statement' className='statement'>
         <div className='container-one'>
           <div className='text'>
@@ -21,9 +21,9 @@ class Software extends React.Component {
               </div>
               <h1>I'M HIGHLY CREATIVE<div className='grey fivepx'></div></h1> 
               <div className='body'>
-                From software to hardware to design to photography and art, learning new skills that allow me to create and help others has great meaning for me. As <strong className='primary'>a fast learner,</strong> I have experience in a <strong className='primary'>vast array of hard skills,</strong> but found nothing as satisfying as OOP. These skills coupled with <strong className='primary'>winning a design award from the Design Museum</strong> have taught me that attention to detail and deep knowledge are vital. 
+                From software to hardware to design to photography and art, learning new skills that allow me to create and help others has great meaning for me. As <strong className='primary'>a fast learner,</strong> I have experience in a <strong className='primary'>vast array of hard skills,</strong> but found nothing as satisfying as OOP. These skills coupled with <strong className='primary'>winning an award from the Design Museum</strong> have taught me that attention to detail and deep knowledge are vital. 
                 <br/> <br/>Having always been interested in tech I <strong className='primary'>designed a 1st grade app</strong> while at Central St Martins and continued its development after graduating. I have worked within digital creative teams with clients such as <strong className='primary'>Nike, Bombay Sapphire, Havaianas, and Bacardi.</strong> Whilst there I took on extra work teaching myself to upgrade hardware, setup and update our server networks and clients' websites.
-                <br/> <br/>I understand I have barely scratched the surface of what is possible and look forward to <strong className='primary'>broadening and specialising my skills,</strong> whilst exploring technologies and techniques to <strong className='primary'>create new efficient systems.</strong>
+                <br/> <br/>I understand I have barely scratched the surface of what is possible and look forward to <strong className='primary'>broadening and specialising my skills,</strong> whilst exploring technologies and techniques to <strong className='primary'>create new efficient systems.</strong> Check out the design, photography and artwork pages in the navbar dropdown.
               </div>
           </div>
           <div className='skills'>
@@ -53,7 +53,7 @@ class Software extends React.Component {
         </div>
         <div className='xp-image'></div>
       </section>
-    </main>
+    </div>
     </main>
   )
 }

@@ -8,7 +8,7 @@ import travel from './Travel';
 class Photography extends React.Component {
   render() {
     return (
-      <main>
+      <main className='photography-main'>
         <NavbarPhotography />
         <section className='photography-header'>
           <div className='photography-image'>

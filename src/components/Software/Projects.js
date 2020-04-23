@@ -4,12 +4,13 @@ import Project from './Project'
 
 const Projects = () => projectsData.length &&  (
   <div className='projects-container'>
-      {projectsData.map((data, i) =>  (
-        <div key={data.app}>
-          {i > 0 && <div className='gap' key={i}></div>}
-          <Project data={data} key={data.title} />
-        </div>
-      ))}
+    {projectsData.map((data, i) =>  (
+      <div key={data.app}>
+        {i > 0 && <div className='gap' key={i}></div>}
+        <Project data={data} key={data.title} />
+      </div>
+    ))}
+    <div className='check'><h2>CHECK OUT MORE PROJECTS IN THE NAVBAR DROPDOWN</h2></div>
   </div>
 )
 

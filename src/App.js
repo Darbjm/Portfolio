@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/art' component={Art} />
+        <Route path='/fineart' component={Art} />
         <Route path='/photography' component={Photography} />
         <Route path='/design' component={Design} />
         <Route exact path='/' component={Software} />

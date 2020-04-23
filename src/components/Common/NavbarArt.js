@@ -28,7 +28,7 @@ const NavbarDesign = () => {
           <div className={`navbar-menu ${open ? 'is-active' : ''}`}>
             <div className='navbar-start'>
               <div onMouseOver={startAnimate} onMouseOut={stopAnimate} className='navbar-item has-dropdown is-hoverable'>
-                <Link className='navbar-link' to='/art'>
+                <Link className='navbar-link' to='/fineart'>
                   Fine Art
                 </Link>
                 <div onMouseOver={startAnimate} onMouseOut={stopAnimate} className='navbar-dropdown is-boxed'>

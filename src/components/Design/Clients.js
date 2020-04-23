@@ -14,7 +14,9 @@ const Clients = () => {
         <img src={client.logo} alt={client.logo} className={client.logoclass}/>
         <div class='grey fivepx'></div>
         <h4>{client.subtitle}</h4>
-        <p>{client.text}</p>
+        {client.text && client.text.map((para, i) => (
+          <div key={i}><p>{para}</p><br/></div>
+        ))}
         {client.list && <ul>
         <li>{client.list[0]}</li>
         <li>{client.list[1]}</li>

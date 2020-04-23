@@ -38,7 +38,7 @@ const Navbar = () => {
                   <Link className='navbar-item' to='/photography'>
                     Photography
                   </Link>
-                  <Link className='navbar-item' to='/art'>
+                  <Link className='navbar-item' to='/fineart'>
                     Fine Art
                   </Link>
                 </div>

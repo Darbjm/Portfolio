@@ -3,7 +3,7 @@ import Gallery from 'react-photo-gallery';
 import projects from './designdata/Projectsdata'
 const Self = () => {
   return(
-    <section className='self'>
+    <section className='self' id='award'>
       <h1>SELF-INITIATED PROJECTS</h1>
       {projects.map((project, i) => (
       <div className='project'>
@@ -12,8 +12,9 @@ const Self = () => {
           <img src={project.logo} alt={project.logo} className={project.logoclass}/>
           <div class='grey fivepx'></div>
           <h4>{project.subtitle}</h4>
-          <p>{project.text}</p>
-          {project.video && <iframe title='Video' src={project.video} width='100%' height='400' frameborder='0' allowfullscreen></iframe>}
+          {project.text && project.text.map((para, i) => (
+          <div key={i}><p>{para}</p><br/></div>
+        ))}
         </div>
       <div className='gallery'>
         <Gallery photos={project.photos} />

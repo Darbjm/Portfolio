@@ -38,7 +38,7 @@ const NavbarPhotography = () => {
                   <Link className='navbar-item' to='/design'>
                   Design
                   </Link>
-                  <Link className='navbar-item' to='/art'>
+                  <Link className='navbar-item' to='/fineart'>
                     Fine Art
                   </Link>
                 </div>

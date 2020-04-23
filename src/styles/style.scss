@@ -16,13 +16,11 @@ $grey: rgb(173, 173, 173);
   box-sizing: border-box;
 }
 
+#root{
+  max-width: 100vw;
+}
+
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0;
-  width: 100vw;
   font-family: 'rale';
   color: black;
 }
@@ -145,8 +143,6 @@ a {
 
 
 
-
-
 .statement {
   font-family: 'rale'; 
   display: flex;
@@ -196,6 +192,9 @@ a {
   }
   .statement-image {
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-image: url('../assets/hand.png');
     margin: 50px 0;
@@ -378,6 +377,9 @@ a {
   }
   .projects-image {
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-image: url('../assets/chairs.png');
     margin: 50px 0;
@@ -385,6 +387,11 @@ a {
   }
 }
 
+.check{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 
 
@@ -430,7 +437,10 @@ a {
   }
   .xp-image {
     background-attachment: fixed;
-    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-image: url('../assets/1aSmall.png');
     margin: 100px 0 50px 0;
     height: 300px;
@@ -534,10 +544,6 @@ a {
 }
 
 .contact {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   .container-four{
     text-align: center;
     h1{
@@ -749,7 +755,10 @@ a {
   }
   .projects-image {
     background-attachment: fixed;
-    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-image: url('../assets/chairs.png');
     margin: 50px 0;
     height: 300px;
@@ -806,7 +815,10 @@ a {
     width: 100vw;
     background-image: url('../assets/design/James Darby_DesignHeader_01.png');
     background-attachment: fixed;
-    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-position: center;
   }
   .name {
@@ -850,6 +862,9 @@ align-items: center;
 .header-image {
   background-image: url('../assets/design/James Darby_DesignHeader_02.png');
   background-attachment: fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   margin: 150px 0 50px 0;
   height: 300px;
@@ -865,7 +880,7 @@ align-items: center;
   flex-direction: column;
   align-items: center;
   h1{
-    margin: 50px 0 48px 0;
+    margin: 100px 0 0 0;
   }
   .client {
     display: flex;
@@ -973,7 +988,10 @@ align-items: center;
   .clients-image {
     background-image: url('../assets/design/James Darby_DesignHeader_03.png');
     background-attachment: fixed;
-    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-position: center;
     margin: 50px 0;
     height: 300px;
@@ -1094,7 +1112,10 @@ align-items: center;
   .projects-image {
     background-image: url('../assets/design/James Darby_DesignHeader_04.png');
     background-attachment: fixed;
-    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-position: center;
     margin: 50px 0;
     height: 300px;
@@ -1135,6 +1156,7 @@ align-items: center;
     .website-image{
       max-height: 800px;
       margin: 20px;
+      max-width: 95%;
     }
   }
 }
@@ -1286,7 +1308,12 @@ align-items: center;
 
 
 
-
+.photography-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+}
 .photography-header{
   display: flex;
   flex-direction: column;
@@ -1295,7 +1322,10 @@ align-items: center;
     background-image: url('../assets/photography/James-Darby_Photography Header-01.png');
     width: 100vw;
     height: 100vh;
-    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -1317,7 +1347,7 @@ align-items: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 20px;
-    width: 700px;
+    max-width: 700px;
     margin: 100px 0 50px 0;
     text-align: center;
   }
@@ -1340,10 +1370,50 @@ align-items: center;
   }
 }
 
+@media only screen and (max-width: 946px) {
+  .photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .images-card{
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      padding: 20px;
+      max-width: 700px;
+      margin: 100px 0 50px 0;
+      text-align: center;
+    }
+    .images{
+      text-align: center;
+      margin: 50px 100px;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      border-top: $Primary-color 4px solid;
+      padding-top: 50px;
+      .row{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        iframe{
+          margin: 20px;
+          max-width: 300px;
+        }
+      }
+    }
+  }
+  }
 
 
 
 
+.art-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
 .art-header{
   display: flex;
   align-items: center;
@@ -1365,14 +1435,14 @@ align-items: center;
     display: flex;
     align-items: center;
     .description {
-      width: 1000px;
+      max-width: 1000px;
     }
     .show {
       margin: 50px 0;
       display: flex;
       flex-direction: column;
       img{
-        width: 1000px;
+        max-width: 1000px;
         margin: 20px;
       }
       .info{
@@ -1390,6 +1460,45 @@ align-items: center;
           }
         }
       }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 946px) {
+.art{
+  .images{
+    .description {
+    }
+    .show {
+      img{
+        max-width: 100%;
+        margin: 20px 0;
+      }
+    }
+  }
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .statement {
+    .statement-image {
+      background-attachment: scroll;
+      height: 200px;
+    }
+  }
+
+  .projects {
+    .projects-image {
+      background-attachment: scroll;
+      height: 200px;
+    }
+  }
+
+  .experiance {
+    .xp-image {
+      background-attachment: scroll;
+      height: 200px;
     }
   }
 }

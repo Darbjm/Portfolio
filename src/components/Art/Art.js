@@ -6,6 +6,7 @@ class Art extends React.Component {
     return (
       <main>
         <NavbarArt />
+        <div className='art-main'>
         <section className='art-header'>
           <div className='name'>
             <div className='color-box'>
@@ -48,7 +49,7 @@ class Art extends React.Component {
               <div className='info'>
                 <img src='https://lh3.googleusercontent.com/83EcZxYi4h5lydALWzU6ZM5dgpRZKdzAV14g_Qei3BmaLX65UvH-1Mg14ziprjsWwARzQ3VjNJcfz-H_EUfOrg2H18NbBtu98ZNF2P0ELPx7vZnBQBwvecO9E0qq4HnbHfKxWlOLtzeQRSFPjnv_Sd1rM_daRRP8ttCtIIcLWjVFmsy7RYkqvV7Tp1e4DJYFc38j0GIqPjuI3_8euPO1O81b4EON5ACZqp27uBG-xAc0RTXIv7Zfi1GUKsvq7z5rjARczcZr4D-oQbYQDNaaOQPiOsNYa5VHAFMpbxDySRJsKdmToSy7IkaCDKnxrC88MxffHECD3FaIUWBlMUixPOmfNaQzP7soFYLnEUI-GNCf8bKz9CNDVMpuQdyx9pppikB5oK8OOHGaNCyMD6ug6c6GP90WR5iSn8UP3nQN6sla-8rlF803eYSHhgpu898KO7TI1ux4LCkWtVeM-Tw5YVB0z24Yc-wkDALhTINg2v_ua38AQC9veen9zncqoBF5HOTRmm2ZdLaTjaCF6hnUsZ0WeoM9_zDkfjjUO0Y90hH8gurTzEcsTrVUR-RMFGHAYs-AznpXwPenp_JWRzMlljkso3Ybi8LVzb18DFdg1aQZNICMc-zYsgwIDHqWjQndexzfHR9pmPQ7Dw52_ykNNQ0w8DJv8RHd3tf6l5O7r4eGSoDHpCXKOV-Oyr1g=w1497-h745-no' alt='oil painting' />
                 <div className='info-card'>
-                  <h2 className='rale'>Cyprus</h2>
+                  <h2 className='rale'>Cypresses</h2>
                   <div class="grey"></div>
                   <p>70cm x 30cm - oil on canvas</p>
                 </div>
@@ -56,6 +57,7 @@ class Art extends React.Component {
             </div>
           </div>
         </section>
+        </div>
       </main>
     )
   }
