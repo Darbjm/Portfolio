@@ -3,7 +3,9 @@ import React from 'react'
 const Website = () => {
   return(
     <section className='website'>
-      <h1>WEBSITES</h1>
+      <div className='title-decoration'>
+        <h1>WEBSITES</h1>
+      </div>
         <div className='center'>
           <h4>Using wordpress I worked with another freelancer to build and maintain these websites</h4>
           <div className='grey'></div>

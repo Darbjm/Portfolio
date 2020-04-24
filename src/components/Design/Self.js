@@ -4,10 +4,12 @@ import projects from './designdata/Projectsdata'
 const Self = () => {
   return(
     <section className='self' id='award'>
-      <h1>SELF-INITIATED PROJECTS</h1>
+      <div className='title-decoration'>
+        <h1>SELF-INITIATED PROJECTS</h1>
+      </div>
       {projects.map((project, i) => (
-      <div className='project'>
-      <div className={project.row} key={i} >
+      <div className='project' key={i}>
+      <div className={project.row} >
         <div className={project.single}>
           <img src={project.logo} alt={project.logo} className={project.logoclass}/>
           <div class='grey fivepx'></div>

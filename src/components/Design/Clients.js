@@ -6,10 +6,12 @@ const Clients = () => {
 
   return (
 <section className='clients'>
-  <h1>CLIENT PROJECTS</h1>
+  <div className='title-decoration'>
+    <h1>CLIENT PROJECTS</h1>
+  </div>
   {clients.map((client, i) => (
-    <div className='client'>
-    <div className={client.row} key={i} >
+    <div className='client' key={i}>
+    <div className={client.row} >
       <div className={client.single}>
         <img src={client.logo} alt={client.logo} className={client.logoclass}/>
         <div class='grey fivepx'></div>
@@ -30,7 +32,7 @@ const Clients = () => {
       <Gallery photos={client.photos} />
     </div>
     </div>
-    {client.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{client.extra.map((image, i) => (<img className='extra-image' src={image} alt={image} />))}</div></div>}
+    {client.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{client.extra.map((image, i) => (<img className='extra-image' src={image} alt='Bombay consumer journey' key={i}/>))}</div></div>}
   </div>))}
   <div id='self' className='clients-image'></div>
 </section>

@@ -5,7 +5,9 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => (
   <section id='contact' className='contact'>
   <div className='container-four'>
-    <h1>CONTACT</h1>
+    <div className='title-decoration'>
+      <h1>CONTACT</h1>
+    </div>
     <div className='contact-text'>
       <p>I am currently looking for a junior developer position and I'm always happy to chat. <br/> I enjoy Coding, Brazilian jiu-jitsu, Rugby, Oil painting, Photography, Philosophy </p>
       <a className='footer-email' href='mailto:james.michael.darby@gmail.com'>james.michael.darby@gmail.com</a>

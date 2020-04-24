@@ -1,24 +1,29 @@
+import monkey from '../../../assets/design/James Darby_DesignHeader_04.png'
+import guy from './allphotos/James Darby_Design_08.png'
+import wall from './allphotos/James Darby_Design_07.png'
+import drink from './allphotos/James Darby_Design_09.png'
+
 export const havphotos = [
   {
-    src: "https://lh3.googleusercontent.com/THGTo81mtK6nd_U556GWf4lBzQceIgBUvrxeFm3icmRfVoovLcRegY4P7g7mKnV-zFogU7nEjH6iAeEnWEmgB3C43k4uX2UI_kOXQDye34oVFGwGQoBBWF83dW957VHJGdK97fIqMXO-QvexENiOT-ndsZ09xckaNcdPbmpYy3sM4R9ZdlD7jKFgLnFeB7vqebZ-YPZA9wWnUZy4mUabk8Sc8PSnuSR139MwK3sSk6IJdOPCsbBfs2E9-aiS71pvf5pcc2buVB7DDmi03aeh8xX_SZUtXfhmTGbRjdJsmzXJ9lhxFB7RFTqhTwDPu1CMnjoEiYpx93UXo397ZR7S9LUGoRnsZi8iIRJJPnYTzwLgcVFhR4D4Hf3tLdIf8_SxGbnpmICJuK2c9D6SVNv2ebg_6zXy4RBkq1ke1AlXeQiu2J-ycvNbDw6MY6MMNJ8pcf_vLGFqFbl6Aox28bU5QAO_4luQv0eJaVxOBGBcPraMVAFNy8h4rKhOrxNPjsMyuO4GTFWOcRkblJf058wdPxY5vAbFka94f4AcieNXPsLRtNXyhw1QVeh2-mqkh69W2hEEKKk6r6EP6yBKoIhjNbKd8PPO6eYMkLEs3oJXm0NrBCLEjgx-hsnkCN4o8_dWHzBVvMb1JgXErIbpisUmGqeCGFP6jI0cOPn7zE0eaW4j0-yHRtcra583G-DN=s1000-no",
+    src: monkey,
     width: 5,
     height: 2,
     number: 0
   },
   {
-    src: "https://lh3.googleusercontent.com/LY_PiIp00ExjIKXib9g5XCpEUxCOoKsV1wMtmz2MC8h983e9cTuZZ2LOJ7CLPlpvpE_XrLth56n0afVEwudtV91m1VNqqkDRxP8icwpTtkFgMAhofkRZU6r1cQtmqKOyUieM7emk5Rgo2XUoO6f2x5WgQpcOGnaEwOPuq0DZ--ASqqL-3xW8xgUcGImAbTyQsFBjh6cskHO5ujoGHKMqrjwFcGHSi9xRnYuCueByPygT7gmnJqlz35wUQz29v-lBQZRtd6rEwgFdzpGNFzb1PprBcgyFgrczLuRUAIJTzdRhuCzDj0E7oidCJHUCxYeP2E_hJp7vh3F69jy8XySPZRz4_Wiu-jg7mXBYSB5ALjzShKcDm5i4pR_FY74RYAgKPhkphEdcbXZBCwK9ePErZu__wy38DI9gaQ1D6Z6Lhmb20OyPW18w18hwfx6QTnNug-cJevFR2ONfPR3WjA3fdeJWPnj1B3Iq1CpDo9nV25Hs6cRvrMdue2kHwQRG2d7-_Q5i3lDCxSPIhp6ozOkvEdZThB4dI6cCxjhD486he7HPLW4N_l1nI9ZN1sw-cIxQ9251GwJgOwH3so-L8VyCDAe3Km_AMsln4bVAQsqjjRaTYlC00yCCxQcIpJ30MWl30qz8yMb4CUiXmUhKxrLBgd47wqoyT6uQI9UbPrMUQ78eK0sA6IusnNy17pog=s900-no",
+    src: guy,
     width: 5,
     height: 2,
     number: 3
   },
   {
-    src: "https://lh3.googleusercontent.com/eKmFlJYJeRzHUS3qvh9cGr59NzYiI0igcyWbYVfKtS1gSqD97v-VDfR3H19Cm1jkY2IEGDLsjQ4WjLeXt7rucJqZmtFqGqDCCxWQa605cbT2FengBEkZzOUMdki0RDjUN266eM2rui94v4qrbsbwpcRZpFyLUUxL_EACoxn6AgcGkM8BEK7Wzo9FTVY8HHHbK1j6DcKgEuyymiiD1a3RdJ548gEWdrHmA7qdKd4ZB6HVh7Zkfvn3jy32PZvfrpRxVDmpQDDonkeIPJHKjB7AeoL-CWP4ec7LzfKqwO4ofabhJVCWbQDL7Kwmxs0qfbK5_mc4LQreGhotP1TDnOPdHbneeM_ESQ0WLNIGoKEyca6DhXXgRPq5GyKGc8AEkAAUPqyFKXRrScPgLayn6DVXybKVlRTuBJQ2f0U1bxwoyPtz__iAEtyILBj_pI3wEpBHeaYSBP9YvM4n1rf7jElIYMyxUQeUQx46GVdcjG2NZXetJPFcKU7v2RHD5x3M_Kjckn-GZmE8vcJFx6VurAv4diftyQO4D3x4pJw-r5qJsY8orO5Ib47Lf673v54hiAZcvRPs9_jszfMnSxDF-qU7QgobRltUB7O9LJxv2JWe4lXzlv-FyFVV6RkZDES9szuTCKCQBseqvcA3-0x7oZPlVqpM3CCukvjN2WUniuUkx08crL9R9t2C-oMZgVxi=w477-h318-no",
+    src: wall,
     width: 5,
     height: 2,
     number: 1
   },
   {
-    src: "https://lh3.googleusercontent.com/Qdc3Ox1f12UvXRjUFwL26j1qJhzGLHJIeE0prTQuGzzdtHvJyrWyDIkL9vAL7PtNeI3Y7ARO7_q-wZErqxethim_4PPzSOBvdc2bUSWrpIhfeaVnYbwqXJCLtcgwoUO8A81WIBtSZZxzxGJcTYoqgFxKB_1Tl1-Q3VprbQuXtTcZnqYhKCsK1pqZWS9OkX1ijF5YOVfl5PGvANPBGIEXtBh0WOMOwgbI9PA3zJv65notu_XiAmfwW-NUHUyBCBt1yrANNkLPtX7PmJNHHGqhHbNXrAhmsFDf0Rka440TEiqCCvkkqZsCJA1zH9XToX2vlPm98eyFQveKQjpczT0sqy885IADD-FxoRh0ZXAIIb48j1ldoiEtO1spBDkCgHV1wWElzF0HAd12vI9jBkxWZGsYDSVrXV4uTgllRxbpanT2XuetMR57H-8rOiLYeErdS2-Eui-KNYeEjJyX8x2_0DwboFyiMdxLiNxkekUDJimE-YBQEGSj5hmQ2Q-Q5aOoJondto2URthjQFhGb62SQobrisxiUEoJ7JTcMgniKRRxIzCWMzDPo8AFnzc5Y3ChRijvqnev4-EIzXm52ypWEUHwT_dhr-1Xx03cpDhLcPFvbM7KP9zE5Dj0uF-zu_80CUQldK0ACmYveSSDNm87FvOhg5_6ILV87n4KgGeOPVZ-mfpgV1Lq1ZMkTdXb=w477-h318-no",
+    src: drink,
     width: 5,
     height: 2,
     number: 2

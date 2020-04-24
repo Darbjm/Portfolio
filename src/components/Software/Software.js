@@ -6,6 +6,9 @@ import Projects from './Projects'
 import Navbar from '../Common/Navbar'
 
 class Software extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
 
   render() {
   return (

@@ -6,6 +6,10 @@ import Self from './Self'
 import Website from './Web'
 
 class Design extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <main>

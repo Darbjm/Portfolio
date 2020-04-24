@@ -45,9 +45,9 @@ const NavbarPhotography = () => {
               </div>
             </div>
             <div onMouseMove={startAnimate} onMouseOut={stopAnimate} className='navbar-end'>
-            <Link className='navbar-item' smooth to='#travel'>Travel</Link>
-              <Link className='navbar-item' smooth to='#product'>Product</Link>
               <Link className='navbar-item' smooth to='#life'>Lifestyle</Link>
+              <Link className='navbar-item' smooth to='#product'>Product</Link>
+              <Link className='navbar-item' smooth to='#travel'>Travel</Link>
               <Link className='navbar-item' smooth to='#video'>Video</Link>
             </div>
           </div>
