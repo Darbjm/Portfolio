@@ -12,14 +12,14 @@ const Self = () => {
       <div className={project.row} >
         <div className={project.single}>
           <img src={project.logo} alt={project.logo} className={project.logoclass}/>
-          <div class='grey fivepx'></div>
+          <div className='grey fivepx'></div>
           <h4>{project.subtitle}</h4>
           {project.text && project.text.map((para, i) => (
           <div key={i}><p>{para}</p><br/></div>
         ))}
         </div>
       <div className='gallery'>
-        <Gallery photos={project.photos} />
+        <Gallery photos={project.photos} key={project.photos}/>
       </div>
       </div>
       {project.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{project.extra.map((image, i) => (<img className='extra-image' src={image} alt={image} />))}</div></div>}

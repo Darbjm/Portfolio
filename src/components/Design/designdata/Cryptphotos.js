@@ -10,37 +10,37 @@ export const crypt = [
     src: app,
     width: 5,
     height: 3,
-    number: 0
+    number: 13
   },
   {
     src: apptwo,
     width: 5,
     height: 3,
-    number: 0
+    number: 14
   },
   {
     src: appthree,
     width: 5,
     height: 3,
-    number: 0
+    number: 15
   },
   {
     src: router,
     width: 5,
     height: 3,
-    number: 0
+    number: 16
   },
   {
     src: watch,
     width: 5,
     height: 3,
-    number: 0
+    number: 17
   },
   {
     src: card,
     width: 5,
     height: 3,
-    number: 0
+    number: 18
   },
 ]
 

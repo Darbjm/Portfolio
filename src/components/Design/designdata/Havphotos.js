@@ -8,25 +8,25 @@ export const havphotos = [
     src: monkey,
     width: 5,
     height: 2,
-    number: 0
+    number: 19
   },
   {
     src: guy,
     width: 5,
     height: 2,
-    number: 3
+    number: 20
   },
   {
     src: wall,
     width: 5,
     height: 2,
-    number: 1
+    number: 21
   },
   {
     src: drink,
     width: 5,
     height: 2,
-    number: 2
+    number: 22
   },
 ]
 export default havphotos

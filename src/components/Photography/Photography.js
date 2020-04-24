@@ -30,7 +30,7 @@ class Photography extends React.Component {
               <h1>LIFESTYLE PHOTOGRAPHY</h1>
             </div>
             <div className='line'>
-              <Gallery photos={lifestyle}/>
+              <Gallery photos={lifestyle} key={lifestyle}/>
             </div>
           </div>
         </section>
@@ -40,7 +40,7 @@ class Photography extends React.Component {
               <h1>PRODUCT PHOTOGRAPHY</h1>
             </div>
             <div className='line'>
-              <Gallery photos={product}/>
+              <Gallery photos={product} key={product}/>
             </div>
           </div>
         </section>
@@ -50,7 +50,7 @@ class Photography extends React.Component {
               <h1>TRAVEL</h1>
             </div>
             <div className='line'>
-              <Gallery photos={travel}/>
+              <Gallery photos={travel} key={travel}/>
             </div>
           </div>
         </section>

@@ -27,7 +27,7 @@ class Art extends React.Component {
           <div className='images'>
             <div className='description'>  
               <h1>OILS ON CANVAS</h1>
-              <div class="grey"></div>
+              <div className="grey"></div>
               <p>While at Central St Martins my art evolved alongside my design pactise, I took classes in life drawing and exhibited various works. Influenced by Pierre Bonnard, Will Martyr, David Hockney and Susan Ryder. Rich in texture and colour, my love of design means I look closely at the spaces we inhabit to produce dreamlike impressionism, taking satisfaction in texture and form.</p>
             </div>
             <div className='show'>
@@ -35,7 +35,7 @@ class Art extends React.Component {
                 <img src={Highfield} alt='oil painting' />
                 <div className='info-card'>
                   <h2 className='rale'>Highfield</h2>
-                  <div class="grey"></div>
+                  <div className="grey"></div>
                   <p>100cm x 70cm - oil on canvas</p>
                 </div>
               </div>
@@ -43,7 +43,7 @@ class Art extends React.Component {
                 <img src={Mountain} alt='oil painting' />
                 <div className='info-card'>
                   <h2 className='rale'>Mountain Road</h2>
-                  <div class="grey"></div>
+                  <div className="grey"></div>
                   <p>70cm x 50cm - oil on canvas</p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ class Art extends React.Component {
                 <img src={Lub} alt='oil painting' />
                 <div className='info-card'>
                   <h2 className='rale'>Lubenham Farm</h2>
-                  <div class="grey"></div>
+                  <div className="grey"></div>
                   <p>70cm x 50cm - oil on canvas</p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ class Art extends React.Component {
                 <img src={Cypress} alt='oil painting' />
                 <div className='info-card'>
                   <h2 className='rale'>Cypresses</h2>
-                  <div class="grey"></div>
+                  <div className="grey"></div>
                   <p>70cm x 30cm - oil on canvas</p>
                 </div>
               </div>

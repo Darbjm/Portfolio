@@ -10,31 +10,31 @@ export const somatic = [
     src: back,
     width: 5,
     height: 2,
-    number: 4
+    number: 28
   },
   {
     src: side,
     width: 5,
     height: 2,
-    number: 6
+    number: 29
   },
   {
     src: front,
     width: 5,
     height: 3,
-    number: 5
+    number: 30
   },
   {
     src: comp,
     width: 5,
     height: 5,
-    number: 7
+    number: 31
   },
   {
     src: info,
     width: 5,
     height: 3,
-    number: 8
+    number: 32
   }
 ]
 

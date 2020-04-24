@@ -9,31 +9,31 @@ export const Bombphotos = [
     src: cup,
     width: 5,
     height: 3,
-    number: 3
+    number: 4
   },
   {
     src: arts,
     width: 5,
     height: 2,
-    number: 1
+    number: 5
   },
   {
     src: bottle,
     width: 5,
     height: 2,
-    number: 0
+    number: 6
   },
   {
     src: closeup,
     width: 5,
     height: 2,
-    number: 3
+    number: 7
   },
   {
     src: work,
     width: 5,
     height: 5,
-    number: 6
+    number: 8
   }
 ]
 export default Bombphotos
