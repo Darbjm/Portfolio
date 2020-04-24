@@ -3,8 +3,38 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-const Project = ({ data }) => (
-  <div className='project-item' data-aos={data.fade} data-aos-offset='600' data-aos-duration='1500'>
+
+class Project extends React.Component {
+  state = {
+    width: 0,
+    height: 0
+  }
+
+  constructor(props) {
+    super(props)
+    this.state = { width: 0, height: 0 }
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions)
+  }
+  
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight })
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions()
+    window.addEventListener('resize', this.updateWindowDimensions)
+  }
+
+  render() {
+  const { data } = this.props
+  const { width } = this.state
+  console.log(this.state.width)
+  return (
+  <div className='project-item' data-aos={width > 1366 ? data.fade : 'zoom-in-down'} data-aos-offset={width > 1366 ? '600' : '400'} data-aos-duration='1500'>
     <div className='project-image'>
       <div className='proj-image-container'>
         <div className={data.image} ></div>
@@ -20,6 +50,8 @@ const Project = ({ data }) => (
       <div className='buttons'><a className='button' href={data.app} rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={faLink} size='sm' className='fontawesome'/>Open Project</a> <a className='button' href={data.github} rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={faGithub} size='sm' className='fontawesome'/>View on Github</a></div>
     </div>
   </div>
-)
+  )
+  }
+}
 
 export default Project
