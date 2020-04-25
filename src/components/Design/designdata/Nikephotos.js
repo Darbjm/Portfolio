@@ -2,7 +2,7 @@ import handstand from '../../../assets/design/James Darby_DesignHeader_02.png'
 import head from './allphotos/James Darby_Design_30.png'
 import wall from './allphotos/James Darby_Design_04.png'
 import que from './allphotos/James Darby_Design_05.png'
-import ball from './allphotos/James Darby_Design_05.png'
+import ball from './allphotos/James Darby_Design_02.png'
 
 
 export const nikephotos = [

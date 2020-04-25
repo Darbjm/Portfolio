@@ -1,5 +1,4 @@
 import React from 'react'
-import Gallery from 'react-photo-gallery';
 import projects from './designdata/Projectsdata'
 const Self = () => {
   return(
@@ -19,7 +18,7 @@ const Self = () => {
         ))}
         </div>
       <div className='gallery'>
-        <Gallery photos={project.photos} key={project.photos}/>
+        {project.photos && project.photos.map(photo => (<img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} />))}
       </div>
       </div>
       {project.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{project.extra.map((image, i) => (<img className='extra-image' src={image} alt={image} />))}</div></div>}

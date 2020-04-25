@@ -27,7 +27,8 @@ export const bacphotos = [
     src: stagefar,
     width: 5,
     height: 1.5,
-    number: 3
+    number: 3,
+    id: 'long'
   },
 
 ]

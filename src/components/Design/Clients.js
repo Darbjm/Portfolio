@@ -1,5 +1,4 @@
 import React from 'react';
-import Gallery from 'react-photo-gallery';
 import { clients } from './designdata/Clientsdata';
 
 const Clients = () => {
@@ -29,7 +28,7 @@ const Clients = () => {
           {client.video && <iframe title='Video' src={client.video} width='100%' height='400' frameborder='0' allowfullscreen></iframe>}
         </div>
       <div className='gallery'>
-        <Gallery photos={client.photos} key={client.photos}/>
+        {client.photos && client.photos.map(photo => (<img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} />))}
       </div>
     </div>
     {client.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{client.extra.map((image, i) => (<img className='extra-image' src={image} alt='Bombay consumer journey' key={i}/>))}</div></div>}

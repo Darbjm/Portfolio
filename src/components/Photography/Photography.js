@@ -1,6 +1,5 @@
 import React from 'react'
 import NavbarPhotography from '../Common/NavbarPhotography'
-import Gallery from 'react-photo-gallery';
 import product from './Photos';
 import lifestyle from './Lifestyle'
 import travel from './Travel';
@@ -30,7 +29,7 @@ class Photography extends React.Component {
               <h1>LIFESTYLE PHOTOGRAPHY</h1>
             </div>
             <div className='line'>
-              <Gallery photos={lifestyle} key={lifestyle}/>
+              {lifestyle && lifestyle.map(photo => (<img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} />))}
             </div>
           </div>
         </section>
@@ -40,7 +39,7 @@ class Photography extends React.Component {
               <h1>PRODUCT PHOTOGRAPHY</h1>
             </div>
             <div className='line'>
-              <Gallery photos={product} key={product}/>
+              {product && product.map(photo => (<img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} />))}
             </div>
           </div>
         </section>
@@ -50,7 +49,7 @@ class Photography extends React.Component {
               <h1>TRAVEL</h1>
             </div>
             <div className='line'>
-              <Gallery photos={travel} key={travel}/>
+              {travel && travel.map(photo => (<img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} />))}
             </div>
           </div>
         </section>
@@ -61,9 +60,9 @@ class Photography extends React.Component {
             </div>
             <div className='line'>
               <div className='row'>
-                <iframe src="https://player.vimeo.com/video/409192497" width="440" height="440"></iframe>
-                <iframe src="https://player.vimeo.com/video/409192401" width="440" height="440"></iframe>
-                <iframe src="https://player.vimeo.com/video/410391484" width="440" height="440"></iframe>
+                <iframe src="https://player.vimeo.com/video/409192497" width="440" height="440" title='vimeo1'></iframe>
+                <iframe src="https://player.vimeo.com/video/409192401" width="440" height="440" title='vimeo2'></iframe>
+                <iframe src="https://player.vimeo.com/video/410391484" width="440" height="440" title='vimeo3'></iframe>
               </div>
             </div>
           </div>

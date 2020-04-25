@@ -25,7 +25,8 @@ export const alcphotos = [
     src: phonethree,
     width: 5,
     height: 1,
-    number: 12
+    number: 12,
+    id: 'long'
   },
 ]
 export default alcphotos
