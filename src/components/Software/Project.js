@@ -33,7 +33,7 @@ class Project extends React.Component {
   const { data } = this.props
   const { width } = this.state
   return (
-  <div className='project-item' data-aos={width > 1366 ? data.fade : 'zoom-in-down'} data-aos-offset={width > 1366 ? '600' : '400'} data-aos-duration='1500'>
+  <div className='project-item' data-aos={width > 1366 ? data.fade : 'zoom-in-down'} data-aos-offset={width > 1366 ? '500' : '400'} data-aos-duration='1500'>
     <div className='project-image'>
       <div className='proj-image-container'>
         <div className={data.image} ></div>

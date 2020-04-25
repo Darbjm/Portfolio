@@ -304,39 +304,39 @@ a {
         }
         .project-text {
           width: 50%;
-          padding: 30px;
-          font-size: 20px;
+          padding: 20px;
+          font-size: 18px;
           text-align: left;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
           border-radius: 5px;
           background-color: white;
           .vow {
             background-image: url('../assets/ChowVow_writing.svg');
-            height: 100px;
+            height: 80px;
             width: 100%;
             background-repeat: no-repeat;
           }
           .connect {
             background-image: url('../assets/ConnectDraw.svg');
-            height: 100px;
+            height: 80px;
             width: 100%;
             background-repeat: no-repeat;
           }
           .no {
             background-image: url('../assets/Journo.svg');
-            height: 100px;
+            height: 80px;
             width: 100%;
             background-repeat: no-repeat;
           }
           .ry {
             background-image: url('../assets/Query.svg');
-            height: 100px;
+            height: 80px;
             width: 100%;
             background-repeat: no-repeat;
           }
           .ny {
             background-image: url('../assets/IronyLogo.svg');
-            height: 100px;
+            height: 80px;
             width: 100%;
             background-repeat: no-repeat;
           }
@@ -643,7 +643,7 @@ a {
     }
     .circle-container {
       justify-content: flex-start;
-      padding-left: 5.5%;
+      padding-left: 8.3%;
       max-width: 350px;
     }
     .timeline-container {
@@ -655,7 +655,7 @@ a {
         width: 100%;
         .timeline-item-content .circle {
           right: auto;
-          left: -40px;
+          left: -45px;
         }
         .timeline-item-content,
         .timeline-item:nth-child(odd) .timeline-item-content {
@@ -726,7 +726,8 @@ a {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 1500px) {
   .projects {
     .container-two {
       .projects-container {
@@ -735,7 +736,7 @@ a {
             width: 95%;
           }
           .project-text {
-            width: 80%;
+            width: 95%;
             display: flex;
             flex-direction: column;
           }
@@ -760,6 +761,40 @@ a {
       }
     }
   }
+}
+
+@media only screen and (max-width: 1200px) {
+  .experiance {
+  .container-three {
+    .circle-container {
+      padding-left: 8%;
+    }
+    .timeline-container {
+      .timeline-item {
+      .timeline-item-content .circle {
+        left: -43px;
+      }
+    }
+  }
+}
+}
+}
+
+@media only screen and (max-width: 1200px) {
+  .experiance {
+  .container-three {
+    .circle-container {
+      padding-left: 7.7%;
+    }
+    .timeline-container {
+      .timeline-item {
+      .timeline-item-content .circle {
+        left: -43px;
+      }
+    }
+  }
+}
+}
 }
 
 
@@ -1376,12 +1411,18 @@ align-items: center;
         .gallery {
           max-width: 460px;
           justify-content: center;
+          .gallery-images{
+            max-height:200px;
+          }
         }
       }
       .row {
         .gallery {
           max-width: 460px;
           justify-content: center;
+          .gallery-images{
+            max-height:200px;
+          }
         }
       }
     }
@@ -1392,12 +1433,27 @@ align-items: center;
         .gallery {
           max-width: 460px;
           justify-content: center;
+          .gallery-images{
+            max-height:200px;
+          }
         }
       }
       .row {
         .gallery {
           max-width: 460px;
           justify-content: center;
+          .gallery-images{
+            max-height:200px;
+          }
+        }
+      }
+    }
+  }
+  .photos{
+    .images{
+      .line {
+        .gallery-images{
+          max-height: 200px !important;
         }
       }
     }
@@ -1550,7 +1606,6 @@ align-items: center;
       flex-direction: column;
       display: flex;
       align-items: center;
-      // border-top: $Primary-color 4px solid;
       padding-top: 50px;
       .row{
         display: flex;
@@ -1716,3 +1771,4 @@ align-items: center;
     }
   }
 }
+
