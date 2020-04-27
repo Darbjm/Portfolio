@@ -21,97 +21,97 @@ export const product = [
     src: bee,
     width: 5,
     height: 4,
-    number: 0
+    number: 14
   },
   {
     src: leaf,
     width: 5,
     height: 5,
-    number: 0
+    number: 15
   },
   {
     src: hug,
     width: 5,
     height: 5,
-    number: 0
+    number: 16
   },
   {
     src: diamond,
     width: 5,
     height: 5,
-    number: 0
+    number: 17
   },
   {
     src: shell,
     width: 5,
     height: 5,
-    number: 0
+    number: 18
   },
   {
     src: curve,
     width: 5,
     height: 5,
-    number: 0
+    number: 19
   },
   {
     src: eye,
     width: 5,
     height: 5,
-    number: 0
+    number: 20
   },
   {
     src: croc,
     width: 5,
     height: 5,
-    number: 0
+    number: 21
   },
   {
     src: heart,
     width: 5,
     height: 5,
-    number: 0
+    number: 22
   },
   {
     src: bottle,
     width: 4,
     height: 5,
-    number: 0
+    number: 23
   },
   {
     src: phone,
     width: 5,
     height: 3,
-    number: 0
+    number: 24
   },
   {
     src: camera,
     width: 4,
     height: 5,
-    number: 0
+    number: 25
   },
   {
     src: greg,
     width: 5,
     height: 5,
-    number: 0
+    number: 26
   },
   {
     src: shoe,
     width: 5,
     height: 5,
-    number: 0
+    number: 27
   },
   {
     src: sho,
     width: 5,
     height: 5,
-    number: 0
+    number: 28
   },
   {
     src: sh,
     width: 5,
     height: 5,
-    number: 0
+    number: 29
   },
   ]
 export default product

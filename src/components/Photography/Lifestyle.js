@@ -21,83 +21,85 @@ export const lifestyle = [
     src: greg,
     width: 5,
     height: 5,
+    number: 0
   },
   {
     src: gre,
     width: 5,
     height: 5,
-    number: 0
+    number: 1
   },
   {
     src: gr,
     width: 5,
     height: 5,
-    number: 0
+    number: 2
   },
   {
     src: g,
     width: 5,
     height: 5,
-    number: 0
+    number: 3
   },
   {
     src: rocket,
     width: 5,
     height: 5,
-    number: 0
+    number: 4
   },
   {
     src: rock,
     width: 5,
     height: 5,
-    number: 0
+    number: 5
   },
   {
     src: flower,
     width: 5,
     height: 5,
-    number: 0
+    number: 6
   },
   {
     src: office,
     width: 5,
     height: 5,
-    number: 0
+    number: 7
   },
   {
     src: football,
     width: 5,
     height: 5,
-    number: 0
+    number: 8
   },
   {
     src: line,
     width: 5,
     height: 5,
-    number: 0
+    number: 9
   },
   {
     src: trousers,
     width: 5,
     height: 5,
-    number: 0
+    number: 10
   },
   {
     src: egg,
     width: 5,
     height: 5,
+    number: 11
   },
   {
     src: copper,
     width: 5,
     height: 3,
-    number: 0
+    number: 12
   },
   {
     src: crew,
     width: 5,
     height: 3,
-    number: 0
+    number: 13
   },
 ]
 export default lifestyle

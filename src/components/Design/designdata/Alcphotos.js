@@ -13,7 +13,8 @@ export const alcphotos = [
   {
     src: phonetwo,
     width: 5,
-    height: 10,
+    height: 3,
+    number: 10
   },
   {
     src: phoneone,

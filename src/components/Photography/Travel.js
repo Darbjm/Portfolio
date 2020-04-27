@@ -35,190 +35,190 @@ export const travel = [
     src: ele,
     width: 5,
     height: 3,
-    number: 0
+    number: 68
   },
   {
     src: st,
     width: 5,
     height: 3,
-    number: 0
+    number: 69
   },
   {
     src: combine,
     width: 5,
     height: 3,
-    number: 0
+    number: 30
   },
   {
     src: tree,
     width: 5,
     height: 3,
-    number: 0
+    number: 31
   },
   {
     src: monk,
     width: 5,
     height: 1,
-    number: 0,
+    number: 32,
     id:'long'
   },
   {
     src: fish,
     width: 5,
     height: 1,
-    number: 0,
+    number: 33,
     id:'long'
   },
   {
     src: buf,
     width: 5,
     height: 1,
-    number: 0,
+    number: 34,
     id:'long'
   },
   {
     src: steps,
     width: 5,
     height: 2,
-    number: 0
+    number: 35
   },
   {
     src: bridge,
     width: 5,
     height: 2,
-    number: 0
+    number: 36
   },
   {
     src: clouds,
     width: 5,
     height: 2,
-    number: 0
+    number: 37
   },
   {
     src: boat,
     width: 5,
     height: 2,
-    number: 0
+    number: 38
   },
   {
     src: sail,
     width: 5,
     height: 2,
-    number: 0
+    number: 39
   },
   {
     src: peacock,
     width: 5,
     height: 2,
-    number: 0
+    number: 40
   },
   {
     src: pigeons,
     width: 5,
     height: 2,
-    number: 0
+    number: 41
   },
   {
     src: flowers,
     width: 5,
     height: 2,
-    number: 0
+    number: 42
   },
   {
     src: neck,
     width: 5,
     height: 2,
-    number: 0
+    number: 43
   },
   {
     src: boy,
     width: 5,
     height: 2,
-    number: 0
+    number: 44
   },
   {
     src: pops,
     width: 5,
     height: 2,
-    number: 0
+    number: 45
   },
   {
     src: happy,
     width: 5,
     height: 2,
-    number: 0
+    number: 46
   },
   {
     src: heli,
     width: 5,
     height: 2,
-    number: 0
+    number: 47
   },
   {
     src: tower,
     width: 5,
     height: 2,
-    number: 0
+    number: 48
   },
   {
     src: muscians,
     width: 5,
     height: 2,
-    number: 0
+    number: 49
   },
   {
     src: dance,
     width: 5,
     height: 2,
-    number: 0
+    number: 50
   },
   {
     src: varan,
     width: 5,
     height: 3,
-    number: 0
+    number: 60
   },
   {
     src: chairs,
     width: 5,
     height: 3,
-    number: 0
+    number: 61
   },
   {
     src: temple,
     width: 5,
     height: 3,
-    number: 0
+    number: 62
   },
   {
     src: making,
     width: 5,
     height: 3,
-    number: 0
+    number: 63
   },
   {
     src: Omar,
     width: 5,
     height: 3,
-    number: 0
+    number: 64
   },
   {
     src: roof,
     width: 5,
     height: 3,
-    number: 0
+    number: 65
   },
   {
     src: highstreet,
     width: 5,
     height: 3,
-    number: 0
+    number: 66
   },
   {
     src: realpop,
     width: 5,
     height: 3,
-    number: 0
+    number: 67
   },
 ]
 export default travel

@@ -9,7 +9,7 @@ export const bacphotos = [
     src: stage,
     width: 5,
     height: 2,
-    number: 0
+    number: 100
   },
   {
     src: red,
