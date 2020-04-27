@@ -59,19 +59,22 @@ export const travel = [
     src: monk,
     width: 5,
     height: 1,
-    number: 0
+    number: 0,
+    id:'long'
   },
   {
     src: fish,
     width: 5,
     height: 1,
-    number: 0
+    number: 0,
+    id:'long'
   },
   {
     src: buf,
     width: 5,
     height: 1,
-    number: 0
+    number: 0,
+    id:'long'
   },
   {
     src: steps,
