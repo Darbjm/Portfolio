@@ -25,7 +25,7 @@ const Clients = () => {
               <li>{client.list[4]}</li>
               <br/>
                 </ul>}
-              {client.video && <iframe title='Video' src={client.video} width='100%' height='400'></iframe>}
+              {client.video && <iframe title='Video' src={client.video} width='100%' height='400' allow="autoplay; fullscreen" ></iframe>}
             </div>
           <div className='gallery'>
             {client.photos && client.photos.map(photo => (<img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} />))}
