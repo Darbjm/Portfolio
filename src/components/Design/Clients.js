@@ -23,6 +23,7 @@ const Clients = () => {
               <li>{client.list[2]}</li>
               <li>{client.list[3]}</li>
               <li>{client.list[4]}</li>
+              <br/>
                 </ul>}
               {client.video && <iframe title='Video' src={client.video} width='100%' height='400'></iframe>}
             </div>
