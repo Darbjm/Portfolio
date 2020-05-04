@@ -1,5 +1,7 @@
 import React from 'react'
-import projects from './designdata/Projectsdata'
+import projects from './designdata/Projectsdata';
+import LazyLoad from 'react-lazy-load';
+
 const Self = () => {
   return(
     <section className='self' id='award'>
@@ -17,11 +19,10 @@ const Self = () => {
           <div key={i}><p>{para}</p><br/></div>
         ))}
         </div>
-      <div className='gallery'>
-        {project.photos && project.photos.map(photo => (<img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} />))}
+        <div className='gallery'>
+          {project.photos && project.photos.map((photo, i) => (<LazyLoad key={i} offsetVertical={700} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
+        </div>
       </div>
-      </div>
-      {project.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{project.extra.map((image, i) => (<img className='extra-image' src={image} alt={image} />))}</div></div>}
       </div>))}
       <div id='web' className='projects-image'></div>
     </section>

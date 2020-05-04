@@ -4,6 +4,7 @@ import Highfield from './ArtPhotos/James Darby_oil art-01.png'
 import Mountain from './ArtPhotos/James Darby_oil art-02.png'
 import Lub from './ArtPhotos/James Darby_oil art-03.png'
 import Cypress from './ArtPhotos/James Darby_oil art-04.png'
+import LazyLoad from 'react-lazy-load';
 
 class Art extends React.Component {
   componentDidMount() {
@@ -32,7 +33,9 @@ class Art extends React.Component {
             </div>
             <div className='show'>
               <div className='info'>
+              <LazyLoad offsetVertical={700} debounce={false}>
                 <img src={Highfield} alt='oil painting' />
+              </LazyLoad>
                 <div className='info-card'>
                   <h2 className='rale'>Highfield</h2>
                   <div className="grey"></div>
@@ -40,7 +43,9 @@ class Art extends React.Component {
                 </div>
               </div>
               <div className='info'>
+              <LazyLoad offsetVertical={700} debounce={false}>
                 <img src={Mountain} alt='oil painting' />
+              </LazyLoad>
                 <div className='info-card'>
                   <h2 className='rale'>Mountain Road</h2>
                   <div className="grey"></div>
@@ -48,7 +53,9 @@ class Art extends React.Component {
                 </div>
               </div>
               <div className='info'>
+              <LazyLoad offsetVertical={700} debounce={false}>
                 <img src={Lub} alt='oil painting' />
+              </LazyLoad>
                 <div className='info-card'>
                   <h2 className='rale'>Lubenham Farm</h2>
                   <div className="grey"></div>
@@ -56,7 +63,9 @@ class Art extends React.Component {
                 </div>
               </div>
               <div className='info'>
+              <LazyLoad offsetVertical={700} debounce={false}>
                 <img src={Cypress} alt='oil painting' />
+              </LazyLoad>
                 <div className='info-card'>
                   <h2 className='rale'>Cypresses</h2>
                   <div className="grey"></div>

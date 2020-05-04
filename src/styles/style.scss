@@ -140,6 +140,11 @@ a {
   }
 }
 
+.node{
+  fill: none;
+  stroke: $Primary-color;
+  stroke-width: 2px;
+}
 
 
 
@@ -147,28 +152,33 @@ a {
   font-family: 'rale'; 
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
   .container-one {
-    flex-wrap: wrap;
     margin-top: 50px;
     display: flex;
     justify-content: center;
     .skills {
-      flex-grow: 1;
-      padding: 30px;
-      margin: 50px;
-      max-width: 500px;
-      border: 1px solid black;
-      .bubbles {
-        border: none;
-      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        .bubbles{
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          flex-direction: column;
+          h1{
+            text-align: center;
+            margin: 0;
+          }
+        }
     }
     .text {
-      max-width: 500px;
+      max-width: 700px;
       padding: 30px;
-      margin: 50px;
+      margin: 0;
       color: rgb(0, 0, 0);
       flex-grow: 1;
-      text-align: left;
+      text-align: right;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       border-radius: 5px;
       h4 {
@@ -179,11 +189,15 @@ a {
       h5 {
         font-size: 20px;
       }
-      .profilePic {
-        height: 200px;
-        width: 200px;
-        background-image: url('../assets/Round.png');
-        background-size: contain;
+      .center {
+        display: flex;
+        flex-direction: row-reverse;
+        .profilePic {
+          height: 200px;
+          width: 200px;
+          background-image: url('../assets/Round.png');
+          background-size: contain;
+        }
       }
       .body {
         font-size: 20px;
@@ -197,7 +211,7 @@ a {
     -o-background-size: cover;
     background-size: cover;
     background-image: url('../assets/hand.png');
-    margin: 50px 0;
+    margin: 100px 0;
     height: 300px;
   }
 }
@@ -601,26 +615,32 @@ a {
   }
 }
 
-
-
-
-
-
-
-
 @media only screen and (max-width: 1500px) {
   .statement {
     .container-one {
+      .text {
+        max-width: 600px;
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+  .statement {
+    .container-one {
+      flex-wrap: wrap;
       .skills {
         align-items: center;
-        margin: 20px;
         .bubbles {
           border: none;
         }
       }
       .text {
         text-align: center;
-        margin: 20px;
+        margin-bottom: 50px;
+        max-width: 80%;
         .center {
           width: 100%;
           display: flex;
@@ -629,13 +649,16 @@ a {
       }
     }
   }
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
   .projects {
     .container-two {
       .projects-container {
         .project-item {
-          .skills{
-            justify-content: center;
-          }
           .project-image {
             height: 300px !important;
           }
@@ -666,6 +689,11 @@ a {
               .ny {
                 background-position: center;
               }
+            }
+            .skills {
+              display: flex;
+              justify-content: center;
+              text-align: center;
             }
           }
             .buttons {

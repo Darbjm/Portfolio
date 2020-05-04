@@ -1,13 +1,41 @@
 import React from 'react'
 import Header from './Animation-header'
-import Bubbles from './bubbles'
+import BubbleWrapper from './BubbleWrapper'
 import Timeline from './Timeline'
 import Projects from './Projects'
 import Navbar from '../Common/Navbar'
 
 class Software extends React.Component {
+  state = {
+    width: 0,
+    height: 0
+  }
+
   componentDidMount() {
     window.scrollTo(0, 0)
+    this.updateWindowDimensions()
+    window.addEventListener('resize', this.updateWindowDimensions)
+  }
+
+  constructor(props) {
+    super(props)
+    this.state = { width: 0, height: 0 }
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions)
+  }
+  
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight })
+  }
+
+    renderChart() {
+    if (this.state.width === 0) {
+      return 'No data yet'
+    }
+    return <BubbleWrapper width={this.state.width}/>
   }
 
   render() {
@@ -31,12 +59,8 @@ class Software extends React.Component {
           </div>
           <div className='skills'>
             <div className='bubbles'>
-              <Bubbles/>
-              Python, Django, JS, React, Hooks, Node.js, Express, Babel, Webpack, Mocha, Chai, Sass, Bulma.
-              Git, GitHub, Z shell, TablePlus, Robo 3T, Insomnia, Heroku, Mapbox, Twilio, Cloudinary, Yandex, Google & React Devtools, Slack.
-              SQL, PostgreSQL, MongoDB
-              Design Thinking, User-centered Design, Teamwork, Public speaking, Creativity.
-              Synology, SolidWorks, Rhino, C4D, Adobe Suite, Wordpress, Trello, Photography.
+              <h1>SKILLS:</h1>
+              {this.renderChart()}
             </div>
           </div>
         </div>
