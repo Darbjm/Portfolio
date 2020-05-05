@@ -14,7 +14,7 @@ export default class BubbleWrapper extends Component {
 
 
 	render() {
-    return <div className="chart-area" ref="chart"></div>
+    return <div className='chart-area' ref='chart'></div>
 	}
 }
 

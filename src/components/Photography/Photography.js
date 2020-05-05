@@ -62,13 +62,13 @@ class Photography extends React.Component {
             <div className='line'>
               <div className='row'>
                 <LazyLoad offsetVertical={700} debounce={false}>
-                  <iframe src="https://player.vimeo.com/video/409192497" width="440" height="440" title='vimeo1'></iframe>
+                  <iframe src='https://player.vimeo.com/video/409192497' width='440' height='440' title='vimeo1'></iframe>
                 </LazyLoad>
                 <LazyLoad offsetVertical={700} debounce={false}>
-                  <iframe src="https://player.vimeo.com/video/409192401" width="440" height="440" title='vimeo2'></iframe>
+                  <iframe src='https://player.vimeo.com/video/409192401' width='440' height='440' title='vimeo2'></iframe>
                 </LazyLoad>
                 <LazyLoad offsetVertical={700} debounce={false}>
-                  <iframe src="https://player.vimeo.com/video/410391484" width="440" height="440" title='vimeo3'></iframe>
+                  <iframe src='https://player.vimeo.com/video/410391484' width='440' height='440' title='vimeo3'></iframe>
                 </LazyLoad>
               </div>
             </div>

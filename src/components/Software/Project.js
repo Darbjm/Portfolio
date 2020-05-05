@@ -36,12 +36,12 @@ class Project extends React.Component {
   <div className='project-item'>
     <div className='project-image'>
       <div className='proj-image-container'>
-        <div className={data.image} data-aos={width > 1366 ? data.fade : 'zoom-in-down'} data-aos-offset={width > 1366 ? '500' : '400'} data-aos-easing="ease-out-cubic" data-aos-duration='1500'></div>
+        <div className={data.image} data-aos={width > 1366 ? data.fade : 'zoom-in-down'} data-aos-offset={width > 1366 ? '500' : '400'} data-aos-easing='ease-out-cubic' data-aos-duration='1500'></div>
       </div>
     </div>
-      <div className='project-text' data-aos='fade-zoom-in' data-aos-offset={width > 1366 ? '200' : '100'} data-aos-easing="ease-out-cubic" data-aos-duration='2000'>
+      <div className='project-text' data-aos='fade-zoom-in' data-aos-offset={width > 1366 ? '200' : '100'} data-aos-easing='ease-out-cubic' data-aos-duration='2000'>
         <div className='project-logo'>
-          <div className={data.logo} ></div><div className="grey fivepx"></div>
+          <div className={data.logo} ></div><div className='grey fivepx'></div>
         </div>
       <div className='skills'>{data.skills.map((skill, i) => <p key={i}>{i > 0 && '|'} {skill}</p>)}</div>
         <h2>{data.time} • {data.team}</h2>

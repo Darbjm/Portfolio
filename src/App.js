@@ -10,8 +10,30 @@ import Software from './components/Software/Software'
 import Design from './components/Design/Design'
 import Photography from './components/Photography/Photography';
 import Art from './components/Art/Art';
+const writing = `
+░░░░░██╗░█████╗░███╗░░░███╗███████╗░██████╗  ██████╗░░█████╗░██████╗░██████╗░██╗░░░██╗
+░░░░░██║██╔══██╗████╗░████║██╔════╝██╔════╝  ██╔══██╗██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝
+░░░░░██║███████║██╔████╔██║█████╗░░╚█████╗░  ██║░░██║███████║██████╔╝██████╦╝░╚████╔╝░
+██╗░░██║██╔══██║██║╚██╔╝██║██╔══╝░░░╚═══██╗  ██║░░██║██╔══██║██╔══██╗██╔══██╗░░╚██╔╝░░
+╚█████╔╝██║░░██║██║░╚═╝░██║███████╗██████╔╝  ██████╔╝██║░░██║██║░░██║██████╦╝░░░██║░░░
+░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░`
+
+const quote = `
+
+"All right," said Deep Thought. "The Answer to the Great Question..."
+"Yes..!"
+"Of Life, the Universe and Everything..." said Deep Thought.
+"Yes...!"
+"Is..." said Deep Thought, and paused.
+"Yes...!"
+"Is..."
+"Yes...!!!...?"
+"Forty-two," said Deep Thought, with infinite majesty and calm.”
+    ― Douglas Adams, The Hitchhiker's Guide to the Galaxy`
 
 function App() {
+  console.log(writing)
+  console.log(quote)
   AOS.init()
   return (
     <BrowserRouter>
