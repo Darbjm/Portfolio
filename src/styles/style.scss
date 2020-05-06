@@ -321,7 +321,7 @@ a {
           padding: 20px;
           font-size: 18px;
           text-align: left;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
           border-radius: 5px;
           background-color: white;
           .vow {
@@ -953,7 +953,7 @@ align-items: center;
     color: rgb(0, 0, 0);
     flex-grow: 1;
     text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     font-size: 20px;
   }
@@ -1001,7 +1001,7 @@ align-items: center;
       justify-content: center;
     .single-left{
       width: 50%;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       border-radius: 5px;
       padding: 30px;
       display: flex;
@@ -1051,7 +1051,7 @@ align-items: center;
       justify-content: center;
     .single-right{
       width: 50%;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       border-radius: 5px;
       padding: 30px;
       display: flex;
@@ -1158,7 +1158,7 @@ align-items: center;
       justify-content: center;
     .single-left{
       width: 50%;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       border-radius: 5px;
       padding: 30px;
       display: flex;
@@ -1208,7 +1208,7 @@ align-items: center;
       justify-content: center;
     .single-right{
       width: 50%;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       border-radius: 5px;
       padding: 30px;
       display: flex;
@@ -1301,7 +1301,7 @@ align-items: center;
   }
   .center {
     width: auto;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 30px;
     display: flex;
@@ -1666,7 +1666,7 @@ align-items: center;
   justify-content: center;
   width: 100vw;
   margin-bottom: 50px;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+  // box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
   padding-bottom: 30px;
 }
 .art-header{
@@ -1691,7 +1691,7 @@ align-items: center;
     align-items: center;
     .description {
       max-width: 1000px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       border-radius: 5px;
       padding: 20px;
       text-align: center;
@@ -1702,7 +1702,7 @@ align-items: center;
       flex-direction: column;
       img{
         max-width: 1000px;
-        margin: 70px 0 20px 0;
+        margin: 70px 0 0 0;
       }
       .info{
         display: flex;
@@ -1710,9 +1710,9 @@ align-items: center;
         flex-wrap: wrap;
         justify-content: center;
         .info-card{
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
           border-radius: 5px;
-          padding: 20px;
+          padding: 0 0 20px 0;
           .rale{
             font-family: 'rale';
           }
