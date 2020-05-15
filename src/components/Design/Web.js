@@ -17,16 +17,16 @@ const Website = () => {
           <p>Whilst working on these sites I aquired:<br/> 1. SEO strategies<br/> 2. A strong understanding of website structure and layout<br/> 3. An insight into servers and urls</p>
         </div>
         <div className='web-row'>
-          <LazyLoad offsetVertical={700} debounce={false}>
+          <LazyLoad offsetVertical={1000} debounce={false}>
             <img className='website-image' src={greg} alt='Gregorys tree website' />
           </LazyLoad>
-          <LazyLoad offsetVertical={700} debounce={false}>
+          <LazyLoad offsetVertical={1000} debounce={false}>
             <img className='website-image' src={web} alt='Gregorys tree website' />
           </LazyLoad>
-          <LazyLoad offsetVertical={700} debounce={false}>
+          <LazyLoad offsetVertical={1000} debounce={false}>
             <img className='website-image' src={alter} alt='ALTER AGENCY website' />
           </LazyLoad>
-          <LazyLoad offsetVertical={700} debounce={false}>
+          <LazyLoad offsetVertical={1000} debounce={false}>
             <img className='website-image' src={altertwo} alt='ALTER AGENCY website' />
           </LazyLoad>
         </div>

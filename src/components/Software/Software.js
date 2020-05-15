@@ -4,6 +4,7 @@ import BubbleWrapper from './BubbleWrapper'
 import Timeline from './Timeline'
 import Projects from './Projects'
 import Navbar from '../Common/Navbar'
+import Self from '../Design/Self'
 
 class Software extends React.Component {
   state = {
@@ -31,7 +32,7 @@ class Software extends React.Component {
     this.setState({ width: window.innerWidth, height: window.innerHeight })
   }
 
-    renderChart() {
+  renderChart() {
     if (this.state.width === 0) {
       return 'No data yet'
     }
@@ -41,7 +42,7 @@ class Software extends React.Component {
   render() {
   return (
       <main>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header/>
       <div className='main'>
       <section id='statement' className='statement'>

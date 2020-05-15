@@ -20,7 +20,7 @@ const Self = () => {
         ))}
         </div>
         <div className='gallery'>
-          {project.photos && project.photos.map((photo, i) => (<LazyLoad key={i} offsetVertical={700} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
+          {project.photos && project.photos.map((photo, i) => (<LazyLoad key={i} offsetVertical={1000} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
         </div>
       </div>
       </div>))}

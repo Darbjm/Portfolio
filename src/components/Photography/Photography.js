@@ -30,7 +30,7 @@ class Photography extends React.Component {
               <h1>LIFESTYLE PHOTOGRAPHY</h1>
             </div>
             <div className='line'>
-              {lifestyle && lifestyle.map((photo, i) => (<LazyLoad key={i} offsetVertical={700} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
+              {lifestyle && lifestyle.map((photo, i) => (<LazyLoad key={i} offsetVertical={1000} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
             </div>
           </div>
         </section>
@@ -40,7 +40,7 @@ class Photography extends React.Component {
               <h1>PRODUCT PHOTOGRAPHY</h1>
             </div>
             <div className='line'>
-              {product && product.map((photo, i) => (<LazyLoad key={i} offsetVertical={700} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
+              {product && product.map((photo, i) => (<LazyLoad key={i} offsetVertical={1000} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
             </div>
           </div>
         </section>
@@ -50,7 +50,7 @@ class Photography extends React.Component {
               <h1>TRAVEL</h1>
             </div>
             <div className='line'>
-              {travel && travel.map((photo, i) => (<LazyLoad key={i} offsetVertical={700} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
+              {travel && travel.map((photo, i) => (<LazyLoad key={i} offsetVertical={1000} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
             </div>
           </div>
         </section>
@@ -61,13 +61,13 @@ class Photography extends React.Component {
             </div>
             <div className='line'>
               <div className='row'>
-                <LazyLoad offsetVertical={700} debounce={false}>
+                <LazyLoad offsetVertical={1000} debounce={false}>
                   <iframe src='https://player.vimeo.com/video/409192497' width='440' height='440' title='vimeo1'></iframe>
                 </LazyLoad>
-                <LazyLoad offsetVertical={700} debounce={false}>
+                <LazyLoad offsetVertical={1000} debounce={false}>
                   <iframe src='https://player.vimeo.com/video/409192401' width='440' height='440' title='vimeo2'></iframe>
                 </LazyLoad>
-                <LazyLoad offsetVertical={700} debounce={false}>
+                <LazyLoad offsetVertical={1000} debounce={false}>
                   <iframe src='https://player.vimeo.com/video/410391484' width='440' height='440' title='vimeo3'></iframe>
                 </LazyLoad>
               </div>

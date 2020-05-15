@@ -251,12 +251,78 @@ a {
         height: 4px;
         background-color: $Primary-color;
       }
+      .design-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        justify-content: center;
+        max-height: 100vh;
+        h1{
+          margin: 0 0 50px 0;
+          text-align: center;
+        }
+        .designpro:nth-child(odd) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row-reverse;
+          margin-bottom: 5px;
+          padding: 20px;
+          .designmap{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 50%;
+            .designimage{
+              max-height: 250px;
+              margin: 20px;
+            }
+          }
+          .designtext{
+            width: 70%;
+            padding: 20px;
+            font-size: 18px;
+            text-align: right;
+          .designlogo{
+            height: 200px;
+          }
+          }
+        }
+        .designpro{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 5px;
+          padding: 20px;
+          .designmap{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 50%;
+            .designimage{
+              max-height: 250px;
+              margin: 20px;
+            }
+          }
+          .designtext{
+            width: 70%;
+            padding: 20px;
+            font-size: 18px;
+            text-align: left;
+          .designlogo{
+            height: 200px;
+          }
+          }
+        }
+      }
       .project-item {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 50px 0;
         justify-content: center;
+        max-height: 100vh;
         .project-image {
           display: flex;
           width: 70%;
@@ -314,6 +380,15 @@ a {
               align-items: center;
               background-position: center;
             }
+            .D3 {
+              height: 100%;
+              width: 100%;
+              background-image: url('../assets/SmallMockup.png');
+              background-size: contain;
+              background-repeat: no-repeat;
+              align-items: center;
+              background-position: center;
+            }
           }
         }
         .project-text {
@@ -350,6 +425,12 @@ a {
           }
           .ny {
             background-image: url('../assets/IronyLogo.svg');
+            height: 80px;
+            width: 100%;
+            background-repeat: no-repeat;
+          }
+          .twilio {
+            background-image: url('../assets/Yandex-Twilio-D3-React.svg');
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
@@ -654,7 +735,152 @@ a {
   }
 }
 
+@media only screen and (max-width: 1800px) {
+  .projects {
+    .container-two {
+      .projects-container {
+        .design-item {
+          .designpro{
+            .designmap{
+              .designimage{
+                max-width: 300px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
+@media only screen and (max-width: 1400px) {
+  .projects {
+    .container-two {
+      .projects-container {
+        .design-item {
+          h1{
+            margin: 25px 0;
+          }
+          .designpro:nth-child(odd) .designmap .designimage {
+            max-width: 200px;
+            margin: 10px
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1203px) {
+  .projects {
+    .container-two {
+      .projects-container {
+        .design-item {
+          max-height: none;
+          h1{
+            margin: 10px 0;
+          }
+          .designpro{
+            .designmap{
+              .designimage{
+                max-width: 200px;
+                margin: 10px
+              }
+            }
+          }
+          .designpro:nth-child(odd) .designmap .designimage {
+            max-width: 200px;
+            margin: 10px
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1123px) {
+  .projects {
+    .container-two {
+      .projects-container {
+        .design-item {
+          max-height: none;
+          h1{
+            margin: 10px 0;
+          }
+          .designpro{
+            display: flex;
+            flex-direction: column-reverse;
+            margin-bottom: 0;
+            .designmap{
+              max-width: 80%;
+              margin-bottom: 50px;
+              .designimage{
+                max-width: 400px;
+                margin: 10px
+              }
+            }
+            .designtext{
+              text-align: center;
+            }
+          }
+          .designpro:nth-child(odd){
+            display: flex;
+            flex-direction: column-reverse;
+            margin-bottom: 0;
+            .designmap {
+              max-width: 80%;
+              margin-bottom: 50px;
+              .designimage {
+              max-width: 400px;
+              margin: 10px
+            }
+          }
+          .designtext{
+            text-align: center;
+          }
+        }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .projects {
+    .container-two {
+      .projects-container {
+        max-width: 100vw;
+        .project-item {
+          max-height: none;
+      }
+      .design-item {
+        max-height: none;
+        .designpro{
+          .designmap{
+            .designimage{
+              margin: 5px
+            }
+          }
+          .designtext{
+            min-width: 100%;
+          }
+        }
+        .designpro:nth-child(odd){
+          .designmap {
+            .designimage {
+            max-width: 300px;
+            margin: 5px
+          }
+        }
+        .designtext{
+          min-width: 100%;
+        }
+      }
+      }
+    }
+    }
+  }
+}
 
 
 @media only screen and (max-width: 1600px) {
@@ -690,6 +916,9 @@ a {
                 
               }
               .ny {
+                background-position: center;
+              }
+              .twilio {
                 background-position: center;
               }
             }

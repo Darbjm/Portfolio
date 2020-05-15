@@ -29,7 +29,7 @@ const Clients = () => {
               {client.video && <iframe title='Video' src={client.video} width='100%' height='400' allow='autoplay; fullscreen' ></iframe>}
             </div>
           <div className='gallery'>
-              {client.photos && client.photos.map((photo, i) => (<LazyLoad key={i} offsetVertical={700} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
+              {client.photos && client.photos.map((photo, i) => (<LazyLoad key={i} offsetVertical={1000} debounce={false}><img className='gallery-images' id={photo.id} src={photo.src} alt={photo.src} key={photo.number} /></LazyLoad>))}
           </div>
         </div>
         {client.extra && <div className='extra-column'><h1>Consumer Journey:</h1><div className='extra'>{client.extra.map((image, i) => (<img className='extra-image' src={image} alt='Bombay consumer journey' key={i}/>))}</div></div>}

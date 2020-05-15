@@ -7,9 +7,9 @@ import 'aos/dist/aos.css';
 import Footer from './components/Common/Footer'
 
 import Software from './components/Software/Software'
-import Design from './components/Design/Design'
-import Photography from './components/Photography/Photography';
-import Art from './components/Art/Art';
+// import Design from './components/Design/Design'
+// import Photography from './components/Photography/Photography';
+// import Art from './components/Art/Art';
 const writing = `
 ░░░░░██╗░█████╗░███╗░░░███╗███████╗░██████╗  ██████╗░░█████╗░██████╗░██████╗░██╗░░░██╗
 ░░░░░██║██╔══██╗████╗░████║██╔════╝██╔════╝  ██╔══██╗██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝
@@ -38,9 +38,9 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/fineart' component={Art} />
+        {/* <Route path='/fineart' component={Art} />
         <Route path='/photography' component={Photography} />
-        <Route path='/design' component={Design} />
+        <Route path='/design' component={Design} /> */}
         <Route exact path='/' component={Software} />
       </Switch>
       <Footer />

@@ -111,7 +111,7 @@ let height = 900;
 let circleR = 35
 let imageS = 55
 let distance = 300
-let charge = -490
+let charge = -400
 
 if (screenWidth > 1800) {
   circleR = 35
@@ -133,8 +133,8 @@ if (screenWidth < 1498 && screenWidth > 1300) {
   height = 900
   circleR = 30
   imageS = 45
-  distance = 50
-  charge = -350
+  distance = 150
+  charge = -250
 }
 
 if (screenWidth < 1023 && screenWidth > 767) {
@@ -152,7 +152,7 @@ if (screenWidth < 767 && screenWidth > 417) {
   circleR = 20
   imageS = 30
   distance = 55
-  charge = -150
+  charge = -110
 }
 
 if (screenWidth <= 417) {
