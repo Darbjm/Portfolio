@@ -152,7 +152,7 @@ if (screenWidth < 767 && screenWidth > 417) {
   circleR = 20
   imageS = 30
   distance = 55
-  charge = -110
+  charge = -100
 }
 
 if (screenWidth <= 417) {
