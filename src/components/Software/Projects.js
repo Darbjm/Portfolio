@@ -44,7 +44,6 @@ class Projects extends React.Component {
             <div className='design-item'>
               {i === 0 && <h1>Design Based Projects</h1>}
               <div className='designpro'>
-                {console.log(data.fade, width)}
                 <div className='designmap' data-aos={width > 1123 ? data.fade : 'zoom-in-down'} data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
                   {data.photos.map(photo => <img key={photo.src} src={photo.src} alt={photo.number} className='designimage'/> )}
                 </div>

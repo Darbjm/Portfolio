@@ -48,7 +48,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Small-Projects' 
   },
   {
-    fade: 'fade-right',
+    fade: 'fade-left',
     image: 'que',
     logo: 'ry',
     text: 'Query is a simple front-end app that consumes the Google Books API via Axios to allow the user to search for any book via the search bar or pagination.',
@@ -60,7 +60,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Query'
   },
   {
-    fade: 'fade-left',
+    fade: 'fade-right',
     image: 'iro',
     logo: 'ny',
     text: 'A small self-initiated project to practise building a two model full-stack RESTful MERN app that allowed users to create their own ironic heroes.',
