@@ -343,6 +343,15 @@ a {
               align-items: center;
               background-position: center;
             }
+            .lang {
+              height: 100%;
+              width: 100%;
+              background-image: url('../assets/gopher.svg');
+              background-size: contain;
+              background-repeat: no-repeat;
+              align-items: center;
+              background-position: center;
+            }
             .draw {
               height: 100%;
               width: 100%;
@@ -398,6 +407,12 @@ a {
           // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
           border-radius: 5px;
           background-color: white;
+          .go {
+            background-image: url('../assets/go-6-01.svg');
+            height: 80px;
+            width: 100%;
+            background-repeat: no-repeat;
+          }
           .vow {
             background-image: url('../assets/ChowVow_writing.svg');
             height: 80px;
