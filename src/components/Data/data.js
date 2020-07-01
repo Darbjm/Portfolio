@@ -1,16 +1,16 @@
 const projectsData = [
-  {
-    fade: 'fade-right',
-    image: 'lang',
-    logo: 'go',
-    text: 'I\'m learning Go and other technologies such as Kubernetes. At present my knowledge about the industry is limited but I believe microservices are the future. My design background helped me see the benefits of these systems in terms of resilience, flexibility and creativity.',
-    time: 'Currently learning',
-    title: 'Go',
-    skills: ['Go', 'Kubernetes', 'etcd', 'Linkerd', 'Docker', 'Cassandra', 'Kafka', 'Prometheus', 'Envoy proxy', 'Jeager', 'Calico'],
-    team: 'Solo project',
-    // app: 'https://journo-ga.herokuapp.com/',
-    // github: 'https://github.com/Darbjm/Journo'
-  },
+  // {
+  //   fade: 'fade-right',
+  //   image: 'lang',
+  //   logo: 'go',
+  //   text: 'I\'m learning Go and other technologies such as Kubernetes. At present my knowledge about the industry is limited but I believe microservices are the future. My design background helped me see the benefits of these systems in terms of resilience, flexibility and creativity.',
+  //   time: 'Currently learning',
+  //   title: 'Go',
+  //   skills: ['Go', 'Kubernetes', 'etcd', 'Linkerd', 'Docker', 'Cassandra', 'Kafka', 'Prometheus', 'Envoy proxy', 'Jeager', 'Calico'],
+  //   team: 'Solo project',
+  //   // app: 'https://journo-ga.herokuapp.com/',
+  //   // github: 'https://github.com/Darbjm/Journo'
+  // },
   {
     fade: 'fade-left',
     image: 'Jour',
