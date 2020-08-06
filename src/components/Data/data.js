@@ -15,7 +15,7 @@ const projectsData = [
     fade: 'fade-left',
     image: 'walk',
     logo: 'up',
-    text: 'I thoroughly enjoyed my time interning for WalkUp. I was placed in the deep end from the start, working with a very modern stack in TypeScript with which I had no previous knowledge, at a time the company was experiencing massive growth and working fully remotely. This forced me to get up to speed with all their methods and technologies. I was working on the web app version building components with Material-UI and Styled components, Tests using Jest and working with Redux to cache user information.',
+    text: 'I thoroughly enjoyed my time interning for WalkUp. I was placed in the deep end from the start, working with a very modern stack in TypeScript with which I had no previous knowledge, at a time the company was experiencing massive growth and working fully remotely. This forced me to get up to speed with all their methods and technologies. I was working on the web app version building components with Material-UI and Styled components, Tests using Jest, and working with Redux to cache user information.',
     time: '4 weeks',
     title: 'Journo',
     skills: ['React.tsx with Hooks', 'Redux', 'TypeScript', 'Styled components', 'Storybook'],
