@@ -334,19 +334,37 @@ a {
             width: 100%;
             display: flex;
             justify-content: flex-end;
-            .chow {
+            .lang {
               height: 100%;
               width: 100%;
-              background-image: url('../assets/Chowvow_mockup.png');
+              background-image: url('../assets/gopher.svg');
               background-size: contain;
               background-repeat: no-repeat;
               align-items: center;
               background-position: center;
             }
-            .lang {
+            .walk {
               height: 100%;
               width: 100%;
-              background-image: url('../assets/gopher.svg');
+              background-image: url('../assets/walkup.svg');
+              background-size: contain;
+              background-repeat: no-repeat;
+              align-items: center;
+              background-position: center;
+            }
+            .word {
+              height: 100%;
+              width: 100%;
+              background-image: url('../assets/Wordee-Mock.png');
+              background-size: contain;
+              background-repeat: no-repeat;
+              align-items: center;
+              background-position: center;
+            }
+            .chow {
+              height: 100%;
+              width: 100%;
+              background-image: url('../assets/Chowvow_mockup.png');
               background-size: contain;
               background-repeat: no-repeat;
               align-items: center;
@@ -409,6 +427,18 @@ a {
           background-color: white;
           .go {
             background-image: url('../assets/go-6-01.svg');
+            height: 80px;
+            width: 100%;
+            background-repeat: no-repeat;
+          }
+          .up {
+            background-image: url('../assets/walk.svg');
+            height: 80px;
+            width: 100%;
+            background-repeat: no-repeat;
+          }
+          .ee {
+            background-image: url('../assets/Wordee_logo.svg');
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;

@@ -38,11 +38,17 @@ import yandex from './logos/yandex-2.svg'
 import Insomnia from './logos/insomnia.svg'
 import Robo from './logos/Robo.svg'
 import table from './logos/table.svg'
-import trello from './logos/trello.svg'
+// import trello from './logos/trello.svg'
 import heroku from './logos/heroku-1.svg'
 import rhino from './logos/rhino.svg'
-import solid from './logos/solidworks.svg'
+// import solid from './logos/solidworks.svg'
 import photo from './logos/photo.svg'
+import TS from './logos/TS.svg'
+import Redux from './logos/Redux.svg'
+import Monday from './logos/Monday.svg'
+import Firebase from './logos/firebase.svg'
+import Storybook from './logos/Storybook.svg'
+
 
 
 class D3BubbleChart {
@@ -89,10 +95,15 @@ class D3BubbleChart {
       { source: 'Insomnia', target: 'Yandex', icon: yandex, },
       { source: 'Yandex', target: 'Robo 3T', icon: Robo, },
       { source: 'Robo 3T', target: 'TablePlus', icon: table, },
-      { source: 'TablePlus', target: 'Trello', icon: trello, },
-      { source: 'Trello', target: 'Heroku', icon: heroku, },
+      { source: 'TablePlus', target: 'TypeScript', icon: TS, },
+      { source: 'TypeScript', target: 'Redux', icon: Redux, },
+      { source: 'Redux', target: 'Monday', icon: Monday, },
+      { source: 'Monday', target: 'Firebase', icon: Firebase, },
+      { source: 'Firebase', target: 'Storybook', icon: Storybook, },
+      // { source: 'TablePlus', target: 'Trello', icon: trello, },
+      { source: 'Storybook', target: 'Heroku', icon: heroku, },
       { source: 'Heroku', target: 'Rhino 3D', icon: rhino, },
-      { source: 'Rhino 3D', target: 'SolidWorks', icon: solid, },
+      // { source: 'Rhino 3D', target: 'SolidWorks', icon: solid, },
       { source: 'SolidWorks', target: 'Photography', icon: photo, },
       { source: 'Photography', target: 'Photoshop', icon: babel },
 

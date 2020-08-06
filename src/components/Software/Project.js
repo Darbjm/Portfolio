@@ -46,7 +46,7 @@ class Project extends React.Component {
           <div className='skills'>{data.skills.map((skill, i) => <p key={i}>{i > 0 && '|'} {skill}</p>)}</div>
           <h2>{data.time} • {data.team}</h2>
           <p>{data.text}</p>
-          {data.app && <div className='buttons'><a className='button' href={data.app} rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={faLink} size='sm' className='fontawesome' />Open Project</a> <a className='button' href={data.github} rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={faGithub} size='sm' className='fontawesome' />View on Github</a></div>}
+          <div className='buttons'>{data.app && <a className='button' href={data.app} rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={faLink} size='sm' className='fontawesome' />Open Project</a>} {data.github && <a className='button' href={data.github} rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={faGithub} size='sm' className='fontawesome' />View on Github</a>}</div>
         </div>
       </div>
     )
