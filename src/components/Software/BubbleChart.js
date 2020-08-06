@@ -48,6 +48,7 @@ import Redux from './logos/Redux.svg'
 import Monday from './logos/Monday.svg'
 import Firebase from './logos/firebase.svg'
 import Storybook from './logos/Storybook.svg'
+import Styled from './logos/Styled.svg'
 
 
 
@@ -99,7 +100,8 @@ class D3BubbleChart {
       { source: 'TypeScript', target: 'Redux', icon: Redux, },
       { source: 'Redux', target: 'Monday', icon: Monday, },
       { source: 'Monday', target: 'Firebase', icon: Firebase, },
-      { source: 'Firebase', target: 'Storybook', icon: Storybook, },
+      { source: 'Firebase', target: 'Styled components', icon: Styled, },
+      { source: 'Styled components', target: 'Storybook', icon: Storybook, },
       // { source: 'TablePlus', target: 'Trello', icon: trello, },
       { source: 'Storybook', target: 'Heroku', icon: heroku, },
       { source: 'Heroku', target: 'Rhino 3D', icon: rhino, },
