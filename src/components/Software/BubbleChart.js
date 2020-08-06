@@ -106,7 +106,7 @@ class D3BubbleChart {
       { source: 'Storybook', target: 'Heroku', icon: heroku, },
       { source: 'Heroku', target: 'Rhino 3D', icon: rhino, },
       // { source: 'Rhino 3D', target: 'SolidWorks', icon: solid, },
-      { source: 'SolidWorks', target: 'Photography', icon: photo, },
+      { source: 'Rhino 3D', target: 'Photography', icon: photo, },
       { source: 'Photography', target: 'Photoshop', icon: babel },
 
     ];
