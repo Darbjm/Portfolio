@@ -69,9 +69,9 @@ class Software extends React.Component {
                 </div>
                 <h1>A CREATIVE<div className='grey fivepx'></div></h1>
                 <div className='body'>
-                  From software to hardware to design to photography and art, learning new skills that allow me to create and help others has great meaning for me. As <strong className='primary'>a fast learner,</strong> I have experience in a <strong className='primary'>vast array of hard skills,</strong> but found nothing as satisfying as OOP. These skills coupled with <strong className='primary'>winning an award from the Design Museum</strong> have taught me that attention to detail and deep knowledge are vital.
-                <br /> <br />Having always been interested in tech I <strong className='primary'>designed a 1st grade app</strong> while at Central St Martins and continued its development after graduating. I have worked within digital creative teams with clients such as <strong className='primary'>Nike, Bombay Sapphire, Havaianas, and Bacardi.</strong> Whilst there I took on extra work teaching myself to upgrade hardware, setup and update our server networks and clients' websites.
-                <br /> <br />I am very interested in building resilient products that use<strong className='primary'> microservices.</strong> From my knowledge in design I see these having the most potential in terms of <strong className='primary'>flexibility and creativity.</strong>
+                  As a creative, I’ve found learning and perfecting new skills as both motivating and essential to creating my best work. Knowing the intricacies and use cases for a technique or tool increases my confidence and joy in the process and so leads to strong solutions. Therefore I’m careful to ask the right questions and understand the key insights of the project.
+                  <br /> <br />As an award-winning Designer, I am keen to combine my creativity with deep technical skills to produce effective results from researched insights. I believe an effective way to achieve this goal is to be a self-aware and enthusiastic team member, learning from others is so useful to me.
+                  <br /> <br />In the near future, I would like to improve my testing skills, learn about Micro-services, and how to write efficient code for apps with many users.
                 </div>
               </div>
               <div className='skills'>
