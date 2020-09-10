@@ -1,17 +1,27 @@
-import React from 'react'
+import React from 'react';
+import propTypes from 'prop-types';
 
 const TimelineItem = ({ data }) => (
-  <div className='timeline-item' data-aos='fade-up' data-aos-offset='400' data-aos-duration='2000'>
-    <div className='timeline-item-content'>
+  <div
+    className="timeline-item"
+    data-aos="fade-up"
+    data-aos-offset="400"
+    data-aos-duration="2000"
+  >
+    <div className="timeline-item-content">
       <h2>{data.location}</h2>
-      <div className='grey'></div>
+      <div className="grey"></div>
       <p>{data.date}</p>
       <h4>{data.occ}</h4>
       <div>
-      <span className='circle'></span>
+        <span className="circle"></span>
       </div>
     </div>
   </div>
-)
+);
 
-export default TimelineItem
+export default TimelineItem;
+
+TimelineItem.propTypes = {
+  data: propTypes.string,
+};
