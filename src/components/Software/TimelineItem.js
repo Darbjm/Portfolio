@@ -23,5 +23,5 @@ const TimelineItem = ({ data }) => (
 export default TimelineItem;
 
 TimelineItem.propTypes = {
-  data: propTypes.string,
+  data: propTypes.object,
 };

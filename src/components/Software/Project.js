@@ -104,5 +104,5 @@ class Project extends React.Component {
 export default Project;
 
 Project.propTypes = {
-  data: propTypes.string,
+  data: propTypes.object,
 };

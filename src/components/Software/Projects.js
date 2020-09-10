@@ -35,7 +35,7 @@ class Projects extends React.Component {
         ))}
         {projects.map((data, i) => (
           <div key={i}>
-            <div className="gap" key={i}></div>
+            <div className="gap"></div>
             <div className="design-item">
               {i === 0 && <h1>Design Based Projects</h1>}
               <div className="designpro">
@@ -66,8 +66,8 @@ class Projects extends React.Component {
                   <div className="grey fivepx"></div>
                   <h2>{data.subtitle}</h2>
                   {data.text &&
-                    data.text.map(para => (
-                      <div key={i}>
+                    data.text.map((para, index) => (
+                      <div key={index}>
                         <p>{para}</p>
                         <br />
                       </div>

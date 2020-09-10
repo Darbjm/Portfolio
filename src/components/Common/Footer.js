@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
-  <section id="contact" className="contact">
+  <footer id="contact" className="contact">
     <div className="container-four">
       <div className="title-decoration">
         <h1>CONTACT</h1>
@@ -48,6 +48,6 @@ const Footer = () => (
     <div className="bottom">
       © Copright 2020 James Darby - Built with React, SASS and HTML
     </div>
-  </section>
+  </footer>
 );
 export default Footer;

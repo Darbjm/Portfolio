@@ -37,9 +37,8 @@ class Header extends React.Component {
       <header className="vanta" ref={this.vantaRef}>
         <div className="name">
           <div className="color-box">
-            {/* change */}
-            <strong>JAMES DARBY</strong>
-            <h4>SOFTWARE ENGINEER</h4>
+            <h1 className="header">JAMES DARBY</h1>
+            <h2 className="second">SOFTWARE ENGINEER</h2>
           </div>
         </div>
       </header>

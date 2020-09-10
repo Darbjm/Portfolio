@@ -74,10 +74,10 @@ class Software extends React.Component {
 
   render() {
     return (
-      <main>
+      <>
         {/* <Navbar /> */}
         <Header />
-        <div className="main">
+        <main className="main">
           <section id="statement" className="statement">
             <div className="container-one">
               <div className="text">
@@ -128,8 +128,8 @@ class Software extends React.Component {
             </div>
             <div className="xp-image"></div>
           </section>
-        </div>
-      </main>
+        </main>
+      </>
     );
   }
 }
