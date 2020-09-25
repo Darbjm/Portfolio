@@ -88,22 +88,20 @@ class Software extends React.Component {
                   A CREATIVE<div className="grey fivepx"></div>
                 </h1>
                 <div className="body">
-                  As a creative, I’ve found learning and perfecting new skills
-                  as both motivating and essential to creating my best work.
-                  Knowing the intricacies and use cases for a technique or tool
-                  increases my confidence and joy in the process and so leads to
-                  strong solutions. Therefore I’m careful to ask the right
-                  questions and understand the key insights of the project.
+                  As a creative engineer, I’ve found knowing the intricacies and
+                  use cases for a technique or tool increases’ my confidence and
+                  creativity leading to strong solutions and excellent
+                  problem-solving. For example, during my time at WalkUp app,
+                  our seated guests increased by over 1.7 million.
                   <br /> <br />
-                  As an award-winning Designer, I am keen to combine my
-                  creativity with deep technical skills to produce effective
-                  results from researched insights. I believe an effective way
-                  to achieve this goal is to be a self-aware and enthusiastic
-                  team member, learning from others is so useful to me.
+                  Creating award-winning designs, I’m keen to combine my
+                  creativity with deep technical skills to produce user-centred
+                  results from researched insights and data. As a result of this
+                  method, I helped Alcatel to reach #3 most sold smartphone
+                  brand in the UK with 10.5% off the market share.
                   <br /> <br />
-                  In the near future, I would like to improve my testing skills,
-                  learn about Micro-services, and how to write efficient code
-                  for apps with many users.
+                  Shortly, I would like to learn about Microservices, design
+                  patterns, and building efficient code for large systems.
                 </div>
               </div>
               <div className="skills">
