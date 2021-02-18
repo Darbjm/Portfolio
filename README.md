@@ -1,4 +1,4 @@
-# <img src='readme/logo.svg' width='200'>
+<img src='readme/logo.svg' width='200'>
 
 <h1>James Darby Portfolio</h1>
  
@@ -6,4 +6,4 @@
  
 [james-darby.co.uk](https://james-darby.co.uk/)
 <hr>
-# <img src='src/assets/Homepage.png' width='400'>
+<img src='src/assets/Homepage.png' width='400'>
