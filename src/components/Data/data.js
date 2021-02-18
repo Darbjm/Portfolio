@@ -31,6 +31,19 @@ const projectsData = [
   },
   {
     fade: 'fade-right',
+    image: 'for',
+    logo: 'ada',
+    text:
+      'Wordpress Theme development, using PHP and JavaScript. A freelance project for Peregrine Communications. Built to allow the owners to update the information on the site without any code knowledge',
+    time: '1 week',
+    title: 'Forada',
+    skills: ['Wordpress', 'PHP', 'JavaScript', 'Responsive design', 'Sass'],
+    team: 'Solo project',
+    app: 'http://peregrine.design/forada/contact/',
+    github: 'https://github.com/Darbjm/Forada',
+  },
+  {
+    fade: 'fade-left',
     image: 'corn',
     logo: 'er',
     text:
@@ -53,7 +66,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Corner',
   },
   {
-    fade: 'fade-left',
+    fade: 'fade-right',
     image: 'word',
     logo: 'ee',
     text:
@@ -74,7 +87,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Wordee',
   },
   {
-    fade: 'fade-right',
+    fade: 'fade-left',
     image: 'Jour',
     logo: 'no',
     text:
@@ -97,7 +110,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Journo',
   },
   {
-    fade: 'fade-left',
+    fade: 'fade-right',
     image: 'chow',
     logo: 'vow',
     text:
@@ -118,7 +131,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/ChowVow-group-project',
   },
   {
-    fade: 'fade-right',
+    fade: 'fade-left',
     image: 'draw',
     logo: 'connect',
     text:
@@ -131,7 +144,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Connet-draw',
   },
   {
-    fade: 'fade-left',
+    fade: 'fade-right',
     image: 'D3',
     logo: 'twilio',
     text:

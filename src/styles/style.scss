@@ -346,6 +346,15 @@ a {
             width: 100%;
             display: flex;
             justify-content: flex-end;
+            .for {
+              height: 100%;
+              width: 100%;
+              background-image: url("../assets/forada.png");
+              background-size: contain;
+              background-repeat: no-repeat;
+              align-items: center;
+              background-position: center;
+            }
             .lang {
               height: 100%;
               width: 100%;
@@ -445,53 +454,68 @@ a {
           text-align: left;
           border-radius: 5px;
           background-color: white;
+          .ada {
+            background-image: url("../assets/forada-logo_main.svg");
+            height: 80px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
           .er {
             background-image: url("../assets/Corner_Logo.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           .go {
             background-image: url("../assets/go-6-01.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           .up {
             background-image: url("../assets/walk.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           .ee {
             background-image: url("../assets/Wordee_logo.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           .vow {
             background-image: url("../assets/ChowVow_writing.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           .connect {
             background-image: url("../assets/ConnectDraw.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           .no {
             background-image: url("../assets/Journo.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           .twilio {
             background-image: url("../assets/Yandex-Twilio-D3-React.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;
+            background-position: center;
           }
           h2,
           h5 {
