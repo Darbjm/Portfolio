@@ -355,6 +355,15 @@ a {
               align-items: center;
               background-position: center;
             }
+            .corn {
+              height: 100%;
+              width: 100%;
+              background-image: url("../assets/Corner.png");
+              background-size: contain;
+              background-repeat: no-repeat;
+              align-items: center;
+              background-position: center;
+            }
             .walk {
               height: 100%;
               width: 100%;
@@ -434,9 +443,14 @@ a {
           padding: 20px;
           font-size: 18px;
           text-align: left;
-          // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
           border-radius: 5px;
           background-color: white;
+          .er {
+            background-image: url("../assets/Corner_Logo.svg");
+            height: 80px;
+            width: 100%;
+            background-repeat: no-repeat;
+          }
           .go {
             background-image: url("../assets/go-6-01.svg");
             height: 80px;
@@ -469,18 +483,6 @@ a {
           }
           .no {
             background-image: url("../assets/Journo.svg");
-            height: 80px;
-            width: 100%;
-            background-repeat: no-repeat;
-          }
-          .ry {
-            background-image: url("../assets/Query.svg");
-            height: 80px;
-            width: 100%;
-            background-repeat: no-repeat;
-          }
-          .ny {
-            background-image: url("../assets/IronyLogo.svg");
             height: 80px;
             width: 100%;
             background-repeat: no-repeat;

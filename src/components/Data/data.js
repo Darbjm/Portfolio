@@ -31,6 +31,29 @@ const projectsData = [
   },
   {
     fade: 'fade-right',
+    image: 'corn',
+    logo: 'er',
+    text:
+      'A TypeScript Python project, using Django, React, Storybook and TDD. The app allows users to vote on their favourite snacks.',
+    time: '2 months',
+    title: 'Corner',
+    skills: [
+      'React.ts',
+      'Django',
+      'Atomic Design',
+      'Python',
+      'TypeScript',
+      'Storybook',
+      'TDD',
+      'Material-ui',
+      'Styled-components',
+    ],
+    team: 'Solo project',
+    app: 'https://cornersnacks.herokuapp.com/',
+    github: 'https://github.com/Darbjm/Corner',
+  },
+  {
+    fade: 'fade-left',
     image: 'word',
     logo: 'ee',
     text:
@@ -51,7 +74,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Wordee',
   },
   {
-    fade: 'fade-left',
+    fade: 'fade-right',
     image: 'Jour',
     logo: 'no',
     text:
@@ -74,7 +97,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Journo',
   },
   {
-    fade: 'fade-right',
+    fade: 'fade-left',
     image: 'chow',
     logo: 'vow',
     text:
@@ -95,7 +118,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/ChowVow-group-project',
   },
   {
-    fade: 'fade-left',
+    fade: 'fade-right',
     image: 'draw',
     logo: 'connect',
     text:
@@ -108,7 +131,7 @@ const projectsData = [
     github: 'https://github.com/Darbjm/Connet-draw',
   },
   {
-    fade: 'fade-right',
+    fade: 'fade-left',
     image: 'D3',
     logo: 'twilio',
     text:
@@ -129,39 +152,6 @@ const projectsData = [
     team: 'Solo project',
     app: 'https://small-project-libraries.herokuapp.com/',
     github: 'https://github.com/Darbjm/Small-Projects',
-  },
-  // {
-  //   fade: 'fade-left',
-  //   image: 'que',
-  //   logo: 'ry',
-  //   text: 'Query is a simple front-end app that consumes the Google Books API via Axios to allow the user to search for any book via the search bar or pagination.',
-  //   time: '2 days',
-  //   title: 'Query',
-  //   skills: ['React.js', 'Node.js', 'Bulma', 'JavaScript', 'JSON', 'HTML', 'SASS'],
-  //   team: 'Team of two',
-  //   app: 'https://query-ga.herokuapp.com/',
-  //   github: 'https://github.com/Darbjm/Query'
-  // },
-  {
-    fade: 'fade-left',
-    image: 'iro',
-    logo: 'ny',
-    text:
-      'A small self-initiated project to practise building a two model full-stack RESTful MERN app that allowed users to create their own ironic heroes.',
-    time: '5 days',
-    title: 'Irony',
-    skills: [
-      'React.js',
-      'Node.js',
-      'Bulma',
-      'JavaScript',
-      'JSON',
-      'HTML',
-      'SASS',
-    ],
-    team: 'Solo project',
-    app: 'https://irony-ga.herokuapp.com/',
-    github: 'https://github.com/Darbjm/Irony',
   },
 ];
 
