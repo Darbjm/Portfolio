@@ -1,4 +1,4 @@
-<img src='readme/logo.svg' width='200'>
+<img src='readme/Logo.svg' width='200'>
 
 <h1>James Darby Portfolio</h1>
  
