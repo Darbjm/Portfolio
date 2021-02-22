@@ -88,20 +88,16 @@ class Software extends React.Component {
                   A CREATIVE<div className="grey fivepx"></div>
                 </h1>
                 <div className="body">
-                  As a creative engineer, I’ve found knowing the intricacies and
-                  use cases for a technique or tool increases’ my confidence and
-                  creativity leading to strong solutions and excellent
-                  problem-solving. For example, during my time at WalkUp app,
-                  our seated guests increased by over 1.7 million.
-                  <br /> <br />
-                  Creating award-winning designs, I’m keen to combine my
-                  creativity with deep technical skills to produce user-centred
-                  results from researched insights and data. As a result of this
-                  method, I helped Alcatel to reach #3 most sold smartphone
-                  brand in the UK with 10.5% off the market share.
-                  <br /> <br />
-                  Shortly, I would like to learn about Microservices, design
-                  patterns, and building efficient code for large systems.
+                  I’m a software engineer with award winning design skills from
+                  Central Saint Martins<br></br>
+                  <br></br>
+                  Studying product design, I specialised in software, creating a
+                  top grade app that changed the course guidelines for future
+                  years.<br></br>
+                  <br></br>
+                  Having experience as a graphic designer and web developer
+                  taught me a lot about front end development, and although my
+                  strengths currently lie there I love working on the back end.
                 </div>
               </div>
               <div className="skills">

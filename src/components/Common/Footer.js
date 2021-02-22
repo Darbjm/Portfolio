@@ -10,7 +10,7 @@ const Footer = () => (
       </div>
       <div className="contact-text">
         <p>
-          I am currently looking for a junior developer position and I'm always
+          I am currently looking for a junior engineer position and I'm always
           happy to chat. <br /> I enjoy Coding, Brazilian jiu-jitsu, Rugby, Oil
           painting, Photography, Philosophy{' '}
         </p>
