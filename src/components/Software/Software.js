@@ -88,16 +88,25 @@ class Software extends React.Component {
                   A CREATIVE<div className="grey fivepx"></div>
                 </h1>
                 <div className="body">
-                  I’m a software engineer with award winning design skills from
-                  Central Saint Martins<br></br>
+                  James studied Product Design focusing on software at Central
+                  Saint Martins. From earning awards from the design museum to
+                  revolutionary results in app design his strong creativity and
+                  love of innovation lead him into software engineering where he
+                  already has one year’s experience.<br></br>
                   <br></br>
-                  Studying product design, I specialised in software, creating a
-                  top grade app that changed the course guidelines for future
-                  years.<br></br>
+                  Being voted in as the SU president, social exec and MVP of
+                  sport, captain of rugby and treasurer of philosophy society,
+                  James found that will power is an important factor for
+                  success. This combined with patience and problem solving
+                  allows him to fix tricky issues for clients such as Nike,
+                  Bacardi, and JD. When other contractors failed to deliver for
+                  Bombay Sapphire, James stepped up working to design and
+                  execute the full user journey the next day for their first
+                  highly successful activation.<br></br>
                   <br></br>
-                  Having experience as a graphic designer and web developer
-                  taught me a lot about front end development, and although my
-                  strengths currently lie there I love working on the back end.
+                  He loves pushing himself to become indispensable in high
+                  energy teams producing efficient, DRY code with a strong
+                  emphasis on innovation, learning, honesty and ownership.
                 </div>
               </div>
               <div className="skills">
